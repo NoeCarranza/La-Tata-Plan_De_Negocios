@@ -1,0 +1,128 @@
+.contenedor_menu{
+    background-image: url("../../assets/background1-1.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+    background-size:cover;
+
+}
+.contenedor_tata{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    border-radius: 40px;
+    background-color: rgba(232, 125, 145);
+    width: 100%;
+    max-width: 420px;
+    height: 400px;
+    margin: 120px 0 40px 120px;
+    padding: 40px;
+}
+.LaTata{
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 700;
+    font-size: 118px;
+    padding: 0;
+    margin: 0;
+    }
+
+.slogan{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    font-size: 30px;
+}
+
+
+.section_2{
+    background: rgb(10, 101, 146);
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.contenedor_qr{
+    background-color: rgba(232, 125, 145, 0.89);
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.qr{
+    width: 150px;
+    align-self: center;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px){
+
+    .contenedor_tata{
+        height: 320px;
+        width: 320px;
+    }
+
+    .LaTata{
+        font-size: 5.8rem;
+    }
+    .slogan{
+        font-size: 1.6rem;
+    }
+
+    .section_2{
+        padding: 20px 20px 20px 80px;
+        align-items: center;
+    }
+
+    .section2_texto{
+        padding: 10px;
+    }
+    .contenedor_qr{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 667px){
+    .contenedor_menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0 0 0;
+        background-size:cover;
+        
+    }
+
+    .section_1{
+        padding: 40px 20px 40px 80px;
+    }
+    .contenedor_tata{
+        width: 260px;
+        height: 260px;
+        margin: 0;
+    }
+
+    .LaTata{
+        font-size: 4rem;
+        padding: 0;
+    }
+    .slogan{
+        font-size: 1.5rem;
+    }
+
+    .section_2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px 40px 80px;
+        text-align: center;
+    }
+}

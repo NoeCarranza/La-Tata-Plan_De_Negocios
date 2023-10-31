@@ -1,0 +1,56 @@
+.container_RE {
+    width: 100%;
+}
+
+.fondo_RE {
+    background-image: url("../../assets/background1-2.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    height: auto;
+    background-size: cover;
+    padding-top: 140px;
+}
+.parte1_RE{
+    background-color: rgb(215, 234, 243);;
+    padding: 100px 0 100px 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+    gap: 20px;
+}
+
+.logo-RE{
+    width: 60%;
+}
+
+.parte2_RE{
+    background-color: rgb(205, 226, 236);
+    padding: 100px 140px 100px 140px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    hyphens: auto;
+}
+
+.parte3_RE{
+    background-color: rgb(181, 218, 237);
+    padding: 100px 140px 100px 140px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    hyphens: auto;
+}

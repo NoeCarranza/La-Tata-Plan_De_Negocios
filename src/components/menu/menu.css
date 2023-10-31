@@ -1,0 +1,70 @@
+
+a{
+  text-decoration: none;
+  color: inherit; 
+}
+
+/* {
+  font-family: 'Gabarito',sans-serif;
+} */
+
+.MuiButton-root {
+  background-color: transparent;
+  color: black; 
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+  text-decoration: none; 
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.MuiButton-root:hover {
+  background-color: transparent;
+  color: white; 
+  box-shadow: none;
+  border: solid 1px black; 
+}
+
+.menu-toolbar {
+  margin: 0;
+  display: flex;
+  gap: 45%;
+  height: 50px;
+  background-color: rgb(4, 92, 122);
+}
+
+.logo {
+  width: 45px;
+  height: auto;
+  cursor: pointer;
+  display: block; 
+  margin: auto; 
+}
+
+
+.MuiButton-root{
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+}
+
+
+@media screen and (max-width: 768px){
+.menu-toolbar {
+  margin: 0;
+  display: flex;
+  gap: 40%;
+  height: 50px;
+}
+}
+
+@media screen and (max-width: 667px){
+.menu-toolbar {
+  margin: 0;
+  gap:120px;
+  height: 50px;
+}
+}
