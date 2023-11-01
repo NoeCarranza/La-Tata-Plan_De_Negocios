@@ -99,7 +99,7 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                    <h2 className="subtitulo" style={{ padding: ' 10px 0' }}>Descargá nuestro proyecto acá:</h2>
+                    <h2 className="subtitulo-footer" style={{ padding: ' 10px 0' }}>Descargá nuestro proyecto acá:</h2>
                     <Link to='' style={{ display: 'flex', justifyContent: 'center' }}>
                         <Button variant="contained" sx={{
                             backgroundColor: 'white',
@@ -129,7 +129,7 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div className="diseñado">
-                    <h2 className="subtitulo">Diseñado por:</h2>
+                    <h2 className="subtitulo-footer">Diseñado por:</h2>
                     <img src={firma} alt='firma' className="firma" />
 
                 </div>

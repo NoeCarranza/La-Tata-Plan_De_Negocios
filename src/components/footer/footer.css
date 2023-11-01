@@ -82,11 +82,10 @@
     border-color:transparent;
 }
 @media screen and (max-width: 768px) {
-
     .container_footer {
         display: grid;
-        grid-template-columns: 200px 346px;
-        grid-template-rows: 20px;
+        grid-template-columns: 250px 346px;
+        grid-template-rows: 150px 300px;
         text-align: start;
         justify-items: center;
         justify-content: space-around;
@@ -94,64 +93,36 @@
         padding: 20px 20px 20px 90px;
 
     }
-
-    .contenedor_imagen {
-        grid-column: 0;
-        grid-row: 1;
-        margin: 0;
-        padding: 20px;
+    .redes{
+        grid-row: 2;
+        grid-column: 1;
+        
     }
-
-    .redes_sociales {
+    .contenedor_imagen{
+        grid-row: 1;
+    }
+    .img-footer{
+        width: 150px;
+    }
+    .titulo{
+        padding: 0;
         margin: 0;
-        padding-Top: 120px;
+        font-size: 1.2rem;
+    }
+    .subtitulo-footer{
+        font-size: 1.2rem;
+        padding: 5px 0;
         text-align: center;
     }
-
-
-    .img-footer {
+    .diseñado{
         width: 100%;
-        max-width: 150px;
+        margin: 0;
     }
-
-
-    .titulo {
-        padding: 0;
-        font-size: 2rem;
-    }
-
-    .botones_redes {
-        gap: 5px;
-    }
-
-    .container-form {
-        width: 100%;
-        grid-row: -2;
-        padding-top: 20px;
-
-    }
-
-    .subtitulo {
-        font-size: 1rem;
-    }
-
-    .firma {
+    .firma{
         width: 50px;
     }
-
-}
-
-@media screen and (max-width: 768px) {
-    .container_footer {
-        display: grid;
-        grid-template-columns: 200px 346px;
-        grid-template-rows: 20px;
-        text-align: start;
-        justify-items: center;
-        justify-content: space-around;
-        align-items: start;
-        padding: 20px 20px 20px 90px;
-
+    .titulo-2{
+        padding-bottom: 10px;
     }
 }
 
