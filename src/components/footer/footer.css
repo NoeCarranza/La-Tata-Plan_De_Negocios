@@ -161,24 +161,30 @@
     .container_footer {
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: 400px 150px 250px;
         text-align: start;
         justify-items: center;
         justify-content: space-around;
         align-items: center;
-        padding: 20px 0 0 55px;
+        padding: 20px 0 20px 55px;
     }
 
     .container-form {
-        grid-row: 2;
+        grid-column: 1;
+        grid-row: 1;
         padding: 0%;
     }
 
     .contenedor_imagen {
-        grid-row: 3;
+        grid-column: 1;
+        grid-row: 2;
+        margin: 0;
     }
 
     .redes {
-        grid-row: 4;
+        grid-column: 1;
         padding: 0;
+        margin: 0;
+        grid-row: 3;
     }
 }
