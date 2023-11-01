@@ -10,47 +10,148 @@
     background-size: cover;
     padding-top: 140px;
 }
-.parte1_RE{
-    background-color: rgb(215, 234, 243);;
-    padding: 100px 0 100px 140px;
+
+.titulo-resumen {
+    margin: 0;
+    padding: 500px 0 0 170px;
+    color: white;
+    font-size: 5rem;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.parte1_RE {
+    background-color: rgb(215, 234, 243);
+    ;
+    padding: 100px 40px 100px 180px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    text-align: justify;
+    justify-content: center;
+    gap: 38px;
     align-items: center;
     justify-content: center;
     align-content: center;
-    text-align: justify;
-    gap: 20px;
 }
 
-.logo-RE{
-    width: 60%;
+.logo-RE {
+    width: 500px;
 }
 
-.parte2_RE{
+.texto-parte1 {
+    font-size: 1.7rem;
+    width: 600px;
+}
+
+.parte2_RE {
     background-color: rgb(205, 226, 236);
-    padding: 100px 140px 100px 140px;
-    display: flex;
-    flex-direction: row;
+    padding: 100px 40px 100px 180px;
+    display: grid;
+    grid-template-columns: 350px 1fr;
     text-align: justify;
-    gap: 60px;
+    justify-content: center;
+    gap: 38px;
     align-items: center;
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap;
-    hyphens: auto;
 }
 
-.parte3_RE{
+.texto-parte2 {
+    font-size: 1.7rem;
+    margin: 0;
+    width: 800px;
+}
+
+.img-tata {
+    width: 350px;
+    border-radius: 40px;
+}
+
+.parte3_RE {
     background-color: rgb(181, 218, 237);
-    padding: 100px 140px 100px 140px;
-    display: flex;
-    flex-direction: row;
+    padding: 100px 40px 100px 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: justify;
-    gap: 60px;
+    justify-content: center;
+    gap: 38px;
     align-items: center;
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap;
-    hyphens: auto;
+}
+
+.texto-parte3 {
+    font-size: 1.7rem;
+    margin: 0;
+    width: 800px;
+}
+
+@media screen and (max-width: 667px) {
+
+    .fondo_RE {
+        background-image: none;
+        background-color: rgb(181, 218, 237);
+        padding: 80px 0px 20px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .titulo-resumen {
+        padding: 0;
+        font-size: 3rem;
+        color: black;
+        text-align: start;
+    }
+
+    .parte1_RE {
+        padding: 40px 40px 40px 60px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .logo-RE {
+        width: 300px;
+    }
+
+    .texto-parte1 {
+        max-width: 500px;
+        font-size: 1rem;
+        hyphens: auto;
+        margin: 0;
+    }
+
+    .texto-parte2,
+    .texto-parte3 {
+        max-width: 300px;
+        font-size: 1rem;
+        hyphens: auto;
+        margin: 0;
+    }
+
+    .parte2_RE {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .parte3_RE {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .img-tata {
+        width: 200px;
+    }
 }

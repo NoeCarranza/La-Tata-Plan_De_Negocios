@@ -159,9 +159,8 @@
 
 @media screen and (max-width: 667px) {
     .container_footer {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 400px 150px 250px;
+        display: flex;
+        flex-direction: column-reverse;
         text-align: start;
         justify-items: center;
         justify-content: space-around;
@@ -170,8 +169,6 @@
     }
 
     .container-form {
-        grid-column: 1;
-        grid-row: 1;
         padding: 0%;
     }
 
