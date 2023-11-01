@@ -25,20 +25,20 @@ export default function Footer() {
                     <Button variant="contained" sx={{
                         backgroundColor: 'white',
                         color: 'black',
-                        width: '70px',
-                        height: 'auto',
+                        width: '60px',
+                        height: '63px',
                         borderRadius: '100%',
                         '&:hover': {
                             backgroundColor: '#184b64',
                             color: 'white',
                             border: 'none',
-                            width: '75px',
-                            height: '75px'
+                            width: '63px',
+                            height: '63px'
                         },
 
                     }}>
                         <FacebookIcon sx={{
-                            fontSize: '60px',
+                            fontSize: '55px',
                             color: '#E87D91',
                             '&:hover': {
                                 color: 'white',
@@ -50,20 +50,21 @@ export default function Footer() {
                     <Button variant="contained" sx={{
                         backgroundColor: 'white',
                         color: 'black',
-                        width: '70px',
-                        height: 'auto',
+                        width: '60px',
+                        height: '63px',
                         borderRadius: '100%',
+                        marginLeft: '10px',
                         '&:hover': {
                             backgroundColor: '#184b64',
                             color: 'white',
                             border: 'none',
-                            width: '75px',
-                            height: '75px'
+                            width: '63px',
+                            height: '63px'
                         },
 
                     }}>
                         <InstagramIcon sx={{
-                            fontSize: '60px',
+                            fontSize: '55px',
                             color: '#E87D91',
                             '&:hover': {
                                 color: 'white',
@@ -72,24 +73,26 @@ export default function Footer() {
                     </Button>
                     </Link>
                     <Link to='http://www.linkedin.com/in/noelia-carranza'>
-                    <Button variant="contained" sx={{
+                    <Button variant="contained" 
+                    sx={{
                         backgroundColor: 'white',
                         color: 'black',
-                        width: '70px',
-                        height: 'auto',
+                        width: '60px',
+                        height: '63px',
                         borderRadius: '100%',
+                        marginLeft: '10px',
                         '&:hover': {
                             backgroundColor: '#184b64',
                             color: 'white',
                             border: 'none',
-                            width: '75px',
-                            height: '75px'
+                            width: '63px',
+                            height: '63px'
                         }
 
                     }}>
                         
                         <LinkedInIcon sx={{
-                            fontSize: '60px',
+                            fontSize: '55px',
                             color: '#E87D91',
                             '&:hover': {
                                 color: 'white',
@@ -101,31 +104,16 @@ export default function Footer() {
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <h2 className="subtitulo-footer" style={{ padding: ' 10px 0' }}>Descargá nuestro proyecto acá:</h2>
                     <Link to='' style={{ display: 'flex', justifyContent: 'center' }}>
-                        <Button variant="contained" sx={{
-                            backgroundColor: 'white',
-                            color: 'black',
-                            width: '70px',
-                            height: 'auto',
-                            borderRadius: '100%',
-                            '&:hover': {
-                                backgroundColor: '#184b64',
-                                color: 'white',
-                                border: 'none',
-                                width: '75px',
-                                height: '75px'
-                            },
-
-                        }}>
+            
                             <GoogleIcon sx={{
-                                fontSize: '60px',
-                                color: '#E87D91',
+                                fontSize: '40px',
+                                color: 'white',
                                 '&:hover': {
-                                    color: 'white',
+                                    color: '#184b64',
                                 },
                             }}
 
                             />
-                        </Button>
                     </Link>
                 </div>
                 <div className="diseñado">

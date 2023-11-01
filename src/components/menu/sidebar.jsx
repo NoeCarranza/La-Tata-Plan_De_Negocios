@@ -139,7 +139,7 @@ function MiniDrawer() {
             <MenuIcon />
           </IconButton>
           <Link to="/">
-          <img src={logo} className='logo'></img>
+          <img src={logo} className='logo' alt='logo La Tata'></img>
           </Link>
         </Toolbar>
       </AppBar>

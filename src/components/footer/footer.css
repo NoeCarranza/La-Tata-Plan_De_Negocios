@@ -1,11 +1,14 @@
 .MuiButtonBase-root {
     font-family: 'Gabarito', sans-serif;
 }
-.MuiTextField-root, .MuiFormControl{
+
+.MuiTextField-root,
+.MuiFormControl {
     border: none;
     border-radius: 15px;
     font-family: 'Gabarito' sans-serif;
 }
+
 .container_footer {
     background-color: #E87D91;
     display: flex;
@@ -44,12 +47,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:0;
+    gap: 0;
 }
 
-.botones_redes {
+
+.descarga {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-form {
@@ -75,17 +80,19 @@
 .firma {
     width: 80px;
 }
-.formulario_texto{
+
+.formulario_texto {
     width: 350px;
     background-color: #ffffff94;
-    border-radius:5px;
-    border-color:transparent;
+    border-radius: 5px;
+    border-color: transparent;
 }
+
 @media screen and (max-width: 768px) {
     .container_footer {
         display: grid;
         grid-template-columns: 250px 346px;
-        grid-template-rows: 150px 300px;
+        grid-template-rows: 130px 280px;
         text-align: start;
         justify-items: center;
         justify-content: space-around;
@@ -93,36 +100,60 @@
         padding: 20px 20px 20px 90px;
 
     }
-    .redes{
+
+    .redes {
         grid-row: 2;
         grid-column: 1;
-        
+        margin: 20px 0;
+
     }
-    .contenedor_imagen{
+
+    .contenedor_imagen {
         grid-row: 1;
+        grid-column: 1;
     }
-    .img-footer{
+
+    .img-footer {
         width: 150px;
+        margin: 20px 0;
     }
-    .titulo{
+    .titulo {
         padding: 0;
-        margin: 0;
-        font-size: 1.2rem;
+        margin: 10px;
+        font-size: 1.3rem;
     }
-    .subtitulo-footer{
-        font-size: 1.2rem;
+
+    .subtitulo-footer {
+        font-size: 1.3rem;
         padding: 5px 0;
         text-align: center;
     }
-    .diseñado{
-        width: 100%;
+
+    .diseñado {
+        display: flex;
+        flex-direction: row;
         margin: 0;
     }
-    .firma{
-        width: 50px;
+
+    .firma {
+        width: 40px;
     }
-    .titulo-2{
+
+    .titulo-2 {
         padding-bottom: 10px;
+    }
+
+    .container-form {
+        grid-row: 0;
+        grid-column: 2;
+
+    }
+
+    .descarga {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        gap: 5px;
     }
 }
 
@@ -142,11 +173,11 @@
         padding: 0%;
     }
 
-    .contenedor_imagen{
+    .contenedor_imagen {
         grid-row: 3;
     }
 
-    .redes{
+    .redes {
         grid-row: 4;
         padding: 0;
     }

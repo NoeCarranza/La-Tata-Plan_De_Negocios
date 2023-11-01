@@ -64,7 +64,7 @@ a{
 @media screen and (max-width: 667px){
 .menu-toolbar {
   margin: 0;
-  gap:120px;
+  gap:40%;
   height: 50px;
 }
 }
