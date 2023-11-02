@@ -171,7 +171,11 @@ p {
         font-size: 1.2rem;
     }
     .descripcion__tata{
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-la-tata{
+        width: 200px;
     }
     .textopn-2,
     .textopn-3{
