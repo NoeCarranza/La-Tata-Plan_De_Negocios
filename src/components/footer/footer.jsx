@@ -103,7 +103,7 @@ export default function Footer() {
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <h2 className="subtitulo-footer" style={{ padding: ' 10px 0' }}>Descargá nuestro proyecto acá:</h2>
-                    <Link to='' style={{ display: 'flex', justifyContent: 'center' }}>
+                    <Link to='https://drive.google.com/file/d/1DbA7X7LniJYcNlNnxoyDwGp_Qicb3cS9/view?usp=sharing' style={{ display: 'flex', justifyContent: 'center' }}>
             
                             <GoogleIcon sx={{
                                 fontSize: '40px',
