@@ -8,7 +8,7 @@
 }
 
 .container-intro {
-    background-color: rgb(159, 219, 247);
+    background-color: #255974;
     padding: 40px 40px 40px 120px;
     display: flex;
     flex-direction: column;
@@ -16,9 +16,33 @@
     justify-content: start;
     gap: 38px;
 }
-
+.titulo-intro {
+    margin: 0;
+    color: white;
+    font-size: 5rem;
+    font-family: 'Gabarito', sans-serif;
+}
+.texto_intro {
+    width: 100%;
+    text-align: justify;
+    font-size: 1.7rem;
+    hyphens: auto;
+    color: white;
+}
+.vision_RRHH {
+    background-color: #2b6584;
+    padding: 40px 40px 40px 120px;
+    display: flex;
+    flex-direction: column;
+}
+.mision_RRHH{
+    background-color: #357ca2;
+    padding: 40px 40px 40px 120px;
+    display: flex;
+    flex-direction: column;
+}
 .container-objetivos {
-    background-color: rgb(241, 143, 161);
+    background-color: #4299c7;
     padding: 40px 40px 40px 120px;
     display: flex;
     flex-direction: column;
@@ -28,22 +52,21 @@
 }
 
 .organigrama {
-    background-color: rgb(225, 104, 126);
+    background-color: #3595c8;
     padding: 40px 40px 40px 120px;
     display: flex;
     flex-direction: column;
     text-align: justify;
     justify-content: start;
-    gap: 38px;
 }
 
 .img-organigrama {
-    width: 50%;
+    width: 60%;
     align-self: center;
 }
 
 .container-cde {
-    background-color: rgb(241, 143, 161);
+    background-color: #E87e92;
     padding: 40px 40px 40px 120px;
     display: flex;
     flex-direction: column;
@@ -61,7 +84,7 @@
     width: 50%;
 }
 .container-puestos{
-        background-color: rgba(232, 125, 145, 0.698);
+        background-color: #eb899b;
         padding: 40px 0;
         margin: 0;
         padding: 40px 60px 40px 120px;
@@ -74,7 +97,7 @@
     align-items: center;
 }
 .container-incentivos{
-    background-color: rgba(232, 125, 145, 0.806);
+    background-color: #e593a2;
         padding: 40px 0;
         margin: 0;
         padding: 40px 60px 40px 120px;
@@ -90,7 +113,7 @@
     width: 60%;
 }
 .container-hys{
-    background-color: rgba(232, 125, 145, 0.925);
+    background-color:#efa3b1;
         padding: 40px 0;
         margin: 0;
         padding: 40px 60px 40px 120px;
@@ -118,7 +141,7 @@
     height: auto;
 }
 .container-capacitaciones{
-    background-color: rgb(238, 161, 175);
+    background-color: #eeb7c1;
     padding: 40px 0;
     margin: 0;
     padding: 40px 60px 40px 120px;
@@ -152,4 +175,12 @@
 }
 .img-cap-cm2{
     width:90%;
+}
+.container-conclusiones{
+    background-color: #f3ccd3;
+    padding: 40px 0;
+    margin: 0;
+    padding: 40px 60px 40px 120px;
+    display: flex;
+    flex-direction: column;
 }

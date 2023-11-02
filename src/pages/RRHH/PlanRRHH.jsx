@@ -24,24 +24,21 @@ function PlanRRHH() {
         <h1 className="titulo-pe">Plan de Recursos Humanos</h1>
       </div>
       <div className="container-intro">
-        <h1 className="titulo-mision">¿Quiénes somos?</h1>
-        <p className="texto-target">acá va la intro de la ceci</p>
+        <h1 className="titulo-intro">¿Quiénes somos?</h1>
+        <p className="texto_intro">acá va la intro de la ceci</p>
       </div>
-      <div className="container__vision">
-        <h1 className="titulo-mision" style={{ color: "black" }}>
+      <div className="vision_RRHH">
+        <h1 className="titulo-intro">
           Visión
         </h1>
-        <div className="vision">
-          <p className="vision__texto">
+          <p className="texto_intro">
             Ser el líder en el mercado regional ofreciendo una solución
             innovadora y confiable para el cuidado de niños en el hogar.
           </p>
-        </div>
       </div>
-      <div className="container__mision">
-        <h1 className="titulo-mision">Misión</h1>
-        <div className="mision">
-          <p className="texto_mision">
+      <div className="mision_RRHH">
+        <h1 className="titulo-intro">Misión</h1>
+          <p className="texto_intro">
             Proporcionar un servicio de cuidado de niños en el hogar a través de
             una aplicación, que ofrece un acceso innovador, cómodo y práctico de
             contratación simple, proporcionando perfiles de babysitters
@@ -50,14 +47,13 @@ function PlanRRHH() {
             sabiendo que sus hijos estarán en buenas manos mientras están
             ausentes.
           </p>
-        </div>
       </div>
       <div className="container-objetivos">
-        <h1 className="titulo-mision">Objetivos</h1>
-        <p>acá van los objetivos de la ceci</p>
+        <h1 className="titulo-intro">Objetivos</h1>
+        <p className="texto_intro">acá van los objetivos de la ceci</p>
       </div>
       <div className="organigrama">
-        <h1 className="titulo-mision">Nuestro organigrama</h1>
+        <h1 className="titulo-intro">Nuestro organigrama</h1>
         <img
           className="img-organigrama"
           src={organigrama}
@@ -159,6 +155,10 @@ function PlanRRHH() {
             className="img-cap-cm2"
           ></img>
         </div>
+      </div>
+      <div className="container-conclusiones">
+        <h1 className="titulo-mision">Conclusiones</h1>
+        <p className="texto-target">acá van las conclusiones</p>
       </div>
     </section>
   );
