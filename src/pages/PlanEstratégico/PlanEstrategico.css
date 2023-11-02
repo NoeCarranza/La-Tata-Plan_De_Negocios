@@ -497,13 +497,18 @@
 }
 
 @media screen and (max-width: 667px) {
-    .container__objE, .container__motivar{
+    .container__objE, 
+    .container__motivar{
         grid-template-columns: repeat(2, 180px);
         justify-content: center;
         align-items: center;
         gap:5px;
         display: grid;
         justify-items: center;
+        padding-left: 50px;
+    }
+    .container_valores{
+        padding-left: 50px;
     }
     .vision,
     .mision, 
@@ -524,5 +529,8 @@
     .estrategia_dif,
     .estrategiaFO{
         flex-direction: column;
+    }
+    .container_motivacion{
+        padding-left: 50px;
     }
 }
