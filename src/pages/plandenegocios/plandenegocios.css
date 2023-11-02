@@ -51,7 +51,7 @@ p {
 .descripcion__tata {
     background-color: rgb(232, 125, 145);
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1.5fr 0.5fr;
     padding: 50px 0;
     gap: 0;
     justify-items: center;
@@ -59,11 +59,13 @@ p {
     justify-content: center;
     text-align: center;
 }
-
+.logo-la-tata{
+    width: 300px;
+    padding-right:170px;
+}
 .textopn-2 {
     width: 70%;
 }
-
 .textopn-3 {
     width: 60%;
 }
@@ -131,12 +133,19 @@ p {
     .img_personas {
         width: 650px;
     }
-    .descripcion__tata, .descripcion_dupla {
+    .descripcion__tata{
+        padding-left: 60px;
+        grid-template-columns: 1fr 0.5fr;
+    }
+    .descripcion_dupla {
         padding-left: 60px;
     }
     .textopn-2, .textopn-3 {
         font-size: 1.3rem;
         hyphens: auto;
+        max-width: 280px;
+        width: 100%;
+        text-align:justify;
     }
     .img_cuerpo {
         width: 80%;
@@ -148,5 +157,38 @@ p {
         width: 90%;
         font-size: 1.3rem;
     }
-
+    .logo-la-tata{
+        width: 250px;
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width: 667px) {
+    .img_personas{
+        width: 400px;
+    }
+    .textopn-1{
+        padding: 20px 0;
+        font-size: 1.2rem;
+    }
+    .descripcion__tata{
+        grid-template-columns: 1fr;
+    }
+    .textopn-2,
+    .textopn-3,
+    .textopn-4{
+        padding: 0;
+        font-size: 1.2rem;
+        width: 100%;
+        max-width: 360px;
+    }
+    .descripcion_dupla{
+        flex-direction: column;
+    }
+    .img_cuerpo {
+        width: 60%;
+    }
+    .logo-tata{
+        width: 200px;
+        padding: 20px;
+    }
 }

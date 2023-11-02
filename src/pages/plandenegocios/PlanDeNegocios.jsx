@@ -20,7 +20,7 @@ function PlanDeNegocios() {
                 <p className="textopn-2">La Tata surge como respuesta a esta necesidad, comprometida a ofrecer a los padres soluciones confiables para el cuidado de sus hijos.
 
                     Nos adaptamos a las necesidades, ofreciendo flexibilidad horaria y cuidado en situaciones de emergencia.</p>
-                <img src={logo} alt="logo la tata" style={{ width: '40%', padding:0 }}></img>
+                <img src={logo} alt="logo la tata" className="logo-la-tata"></img>
             </div>
             <div className="descripcion_dupla">
                 <div className="cuadros">
