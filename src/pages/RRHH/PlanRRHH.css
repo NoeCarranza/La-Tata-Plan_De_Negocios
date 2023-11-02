@@ -125,4 +125,31 @@
     display: flex;
     flex-direction: column;
 }
-
+.capacitacion-bby{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-cap-bby{
+    width: 70%;
+}
+.subtitulo-cap{
+    font-family: 'Gabarito',sans-serif;
+    font-size: 3rem;
+}
+.capacitacion-cm{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.img-cap-cm{
+    width: 100%;
+}
+.img-cap-cm2{
+    width:90%;
+}
