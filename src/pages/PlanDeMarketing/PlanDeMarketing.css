@@ -495,7 +495,10 @@
         justify-content: center;
     }
     .logo-app{
-        width: 400px;
+        width: 350px;
+    }
+    .cajas_producto{
+        grid-template-columns: 1fr;
     }
     .container_ciclo_producto, .container_estrategias{
         padding: 40px 70px;
@@ -514,10 +517,34 @@
         width: 200px;
         height: 200px;
     }
+    .container-calidad-servicio{
+        padding-left: 60px;
+    }
+    .caja_calidad{
+        grid-template-columns: repeat(2, 200px);
+    }
+    .cajas_calidad{
+        width: 150px;
+        height: 150px;
+        gap:0;
+    }
+    .texto_calidad{
+        font-size: 1rem;
+    }
     .texto_canal {
         font-size: 1.3rem;
     }
     .texto-conclusion{
         max-width: 550px;
+    }
+    .producto_nombre, 
+    .container-logos,
+    .producto_colores,
+    .tipografia{
+        display: flex;
+        flex-direction: column;
+    }
+    .texto-colores{
+        font-size: 1rem;
     }
 }
