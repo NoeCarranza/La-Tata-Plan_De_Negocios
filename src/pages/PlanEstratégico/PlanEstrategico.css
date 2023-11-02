@@ -499,7 +499,7 @@
 @media screen and (max-width: 667px) {
     .container__objE, 
     .container__motivar{
-        grid-template-columns: repeat(2, 180px);
+        grid-template-columns: repeat(2, 150px);
         justify-content: center;
         align-items: center;
         gap:5px;
