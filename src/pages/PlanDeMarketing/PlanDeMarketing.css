@@ -520,10 +520,15 @@
     .container-calidad-servicio{
         padding-left: 60px;
     }
-    .caja_calidad{
-        grid-template-columns: repeat(2, 200px);
+    .caja_calidad, .cajas_canales{
+        grid-template-columns: repeat(2, 180px);
+        justify-content: center;
+        align-items: center;
+        gap:5px;
+        display: grid;
+        justify-items: center;
     }
-    .cajas_calidad{
+    .cajas_calidad, .cajas_canal{
         width: 150px;
         height: 150px;
         gap:0;
@@ -544,7 +549,14 @@
         display: flex;
         flex-direction: column;
     }
-    .texto-colores{
+    .texto-colores, .texto_canal{
         font-size: 1rem;
+    }
+    .numeros_canales {
+        font-size: 50px;;
+    }
+    .texto-precios{
+        width: 100%;
+        max-width: 400px;
     }
 }
