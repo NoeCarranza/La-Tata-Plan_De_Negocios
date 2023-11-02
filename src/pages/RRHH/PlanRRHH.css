@@ -237,4 +237,7 @@
         padding: 0;
         margin: 0;
     }
+    .subtitulo-cap{
+        font-size: 2rem;
+    }
 }
