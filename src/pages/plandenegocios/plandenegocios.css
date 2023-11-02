@@ -184,7 +184,7 @@ p {
         padding: 0;
         font-size: 1.2rem;
         width: 100%;
-        max-width: 330px;
+        max-width: 360px;
     }
     .descripcion_dupla{
         flex-direction: column;
