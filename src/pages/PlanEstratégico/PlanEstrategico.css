@@ -497,8 +497,8 @@
 }
 
 @media screen and (max-width: 667px) {
-    .container__objE, .container__motivar {
-        grid-template-columns: repeat(2, 300px);
+    .container__objE, .container__motivar, .box_target, .mision{
+        grid-template-columns: repeat(2, 200px);
         justify-content: center;
         align-items: center;
         display: grid;
@@ -510,5 +510,12 @@
     }
     .img_factarget{
         width: 90%;
+    }
+    .FODA{
+        width: 60%;
+    }
+    .estrategia_dif,
+    .estrategiaFO{
+        flex-direction: column;
     }
 }
