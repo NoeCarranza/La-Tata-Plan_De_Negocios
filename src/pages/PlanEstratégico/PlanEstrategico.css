@@ -505,6 +505,7 @@
         display: grid;
         justify-items: center;
     }
+    .vision,
     .mision, 
     .box_target{
         display: flex;
