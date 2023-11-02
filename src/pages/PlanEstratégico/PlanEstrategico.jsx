@@ -140,7 +140,7 @@ function PlanEstrategico() {
             <div className='container_factorestarget'>
                 <h1 className='titulo-mision'>Factores del target del consumidor</h1>
                 <div className='img_factorestarget'>
-                    <img src={target1} alt="factores del target del consumidor" style={{ width: '100%' }}></img>
+                    <img src={target1} alt="factores del target del consumidor" className='img_factarget'></img>
                 </div>
             </div>
             <div className='container_motivacion'>

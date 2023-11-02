@@ -280,7 +280,7 @@
 
 .container_estrategia {
     background-color: rgb(243, 187, 148);
-    padding: 100px 0 100px 120px;
+    padding: 100px 20px 100px 120px;
     text-align: justify;
 }
 
@@ -310,11 +310,13 @@
 
 .container_estrategiaFO {
     background-color: rgb(246, 218, 198);
-    padding: 100px 0 100px 120px;
-    text-align: justify;
+    padding: 100px 20px 100px 120px;
+    text-align: center;
     hyphens: auto;
 }
-
+.img_factarget{
+    width: 100%;
+}
 .container_conclusion {
     background-color: rgb(244, 233, 225);
     padding: 100px 0 100px 120px;
@@ -494,5 +496,22 @@
     .subtitulo-fo {
         font-size: 2rem;
         hyphens: none;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .container__objE, .container__motivar {
+        grid-template-columns: repeat(2, 300px);
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        justify-items: center;
+    }
+    .texto_target{
+        width: 100%;
+        max-width: 350px;
+    }
+    .img_factarget{
+        width: 90%;
     }
 }
