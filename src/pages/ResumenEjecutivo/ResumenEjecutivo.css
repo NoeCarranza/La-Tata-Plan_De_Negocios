@@ -160,6 +160,7 @@
         font-size: 3rem;
         color: white;
         text-align: center;
+        hyphens: auto;
     }
 
     .parte1_RE {
