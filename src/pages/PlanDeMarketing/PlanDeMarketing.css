@@ -490,6 +490,9 @@
     }
 }
 @media screen and (max-width: 667px) {
+    .titulo-section1{
+        padding-top:60px;
+    }
     .container_section1,
     .container_ciclo_producto,
     .container_nombre_producto,
@@ -566,7 +569,7 @@
         font-size: 1rem;
     }
     .numeros_canales {
-        font-size: 50px;;
+        font-size: 50px;
     }
     .texto-precios{
         width: 100%;
