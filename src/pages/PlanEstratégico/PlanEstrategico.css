@@ -516,7 +516,7 @@
     }
     .texto_target, .p-texto-pe, .texto_mision{
         width: 100%;
-        max-width: 420px;
+        max-width: 350px;
         padding: 0;
         margin: 0;
     }
@@ -545,6 +545,6 @@
     .container_conclusion
     {
 
-        padding-left: 65px;
+        padding: 20px 0 20px 65px;
     }
 }
