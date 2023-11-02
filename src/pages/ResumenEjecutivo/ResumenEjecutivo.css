@@ -145,7 +145,7 @@
 }
 @media screen and (max-width: 667px) {
     .container_RE {
-        padding: 40px 40px 40px 60px;
+        padding: 40px 40px 0 40px;
     }
     .fondo_RE {
         background-image: none;
