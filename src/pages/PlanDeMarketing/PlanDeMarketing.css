@@ -7,9 +7,35 @@
     background-size: cover;
 }
 
+.titulo-section1 {
+    margin: 0;
+    padding: 500px 0 0 120px;
+    color: white;
+    font-size: 5rem;
+    text-align: start;
+    font-family: 'gabarito', sans-serif;
+}
+
 .container_producto {
     background-color: rgb(232, 148, 164);
     padding: 40px 120px 40px;
+}
+
+.p {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 120px;
+    align-items: center;
+    gap: 10px;
+    background-color: #255974;
+}
+
+.titulo-p {
+    margin: 0;
+    color: white;
+    font-size: 4rem;
+    text-align: start;
+    font-family: 'Rozha One', sans-serif;
 }
 
 .titulo_cajas {
@@ -51,12 +77,15 @@
     background-color: rgb(247, 188, 199);
 }
 
-.img_ciclo {
+.container-img-ciclo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0;
-    margin: 0%;
+    text-align: start;
+}
+
+.img_ciclo {
+    width: 60%;
 }
 
 .container_nombre_producto {
@@ -311,4 +340,103 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .container_section1 {
+        background-image: none;
+        background-color: rgb(232, 148, 164);
+        padding: 80px 0 20px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-section1 {
+        font-size: 3rem;
+        text-align: center;
+        padding: 0;
+    }
+
+    .p {
+        padding-left: 0px;
+        font-size: 2rem;
+        justify-content: center;
+    }
+
+    .titulo-p {
+        font-size: 2.5rem;
+    }
+
+    .container_producto {
+        padding: 40px 20px 40px 80px;
+    }
+
+    .cajas_producto, .caja_calidad {
+        padding-top: 20px;
+        grid-template-columns: repeat(2, 280px);
+        gap: 20px;
+    }
+
+    .cajas_producto_individual {
+        width: 250px;
+    }
+
+    .cajas__numeros2 {
+        font-size: 2.5rem;
+    }
+
+    .titulo_cajas {
+        font-size: 1.5rem;
+    }
+
+    .parrafo_cajas {
+        font-size: 1rem;
+        width: 250px;
+    }
+
+    .container_ciclo_producto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_ciclo {
+        width: 100%;
+    }
+    .container_nombre_producto,
+    .container-colores,
+    .container-tipografia{
+        padding: 40px 20px 40px 80px;
+    }
+    .producto_nombre {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nombre-tata {
+        width: 200px;
+    }
+    .logo-tata{
+        width: 200px;
+    }
+    .logo-app{
+        width: 650px;
+    }
+    .producto_colores{
+        padding-top: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tipografia{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:20px;
+    }
+    .texto_calidad{
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+    }
 }

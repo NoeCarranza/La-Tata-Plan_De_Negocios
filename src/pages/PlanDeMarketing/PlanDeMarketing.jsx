@@ -12,15 +12,15 @@ export default function PlanDeMarketing() {
     return (
         <section>
             <div className='container_section1'>
-                <h1 className='titulo' style={{ margin: '0', padding: '500px 0 0 120px', color: 'white', fontSize: '5rem', textAlign: 'start' }}>Plan De Marketing</h1>
+                <h1 className='titulo-section1'>Plan De Marketing</h1>
             </div>
-            <div style={{ display: 'flex', flexDirection: 'row', padding: '0 0 0 120px', alignItems: 'center', gap: '10px', backgroundColor: '#255974' }}>
-                <h1 style={{ fontFamily: 'Rozha One', fontSize: '4rem', color: 'white', }}>1.</h1>
-                <h1 className='titulo' style={{ margin: '0', color: 'white', fontSize: '4rem', textAlign: 'start' }}>Producto</h1>
+            <div className='p'>
+                <h1 className='titulo-p'>1.</h1>
+                <h1 className='titulo-p'>Producto</h1>
             </div>
             <div className='1-producto'>
                 <div className='container_producto'>
-                    <h1 className='titulo' style={{ fontSize: '4rem', padding: '10px 0', margin: '0' }}>Niveles del producto</h1>
+                    <h1 className='titulo-mision'>Niveles del producto</h1>
                     <div className='cajas_producto'>
                         <div className='cajas_producto_individual'>
                             <h1 className='cajas__numeros2'>1.</h1>
@@ -45,30 +45,30 @@ export default function PlanDeMarketing() {
                     </div>
                 </div>
                 <div className='container_ciclo_producto'>
-                    <h1 className='titulo' style={{ fontSize: '4rem', padding: '10px 0', margin: '0' }}>Ciclo de vida del producto</h1>
-                    <h1 className='subtitulo' style={{ fontSize: '3rem' }}>Patrón Ciclo-Reciclo</h1>
-                    <div className='img_ciclo'>
-                        <img src={ciclo} alt='ciclo reciclo' style={{ width: '40%' }} />
+                    <h1 className='titulo-mision'>Ciclo de vida del producto</h1>
+                    <h1 className='subtitulo-fo'>Patrón Ciclo-Reciclo</h1>
+                    <div className='container-img-ciclo'>
+                        <img src={ciclo} alt='ciclo reciclo' className='img_ciclo' />
                     </div>
                 </div>
                 <div className='container_nombre_producto'>
-                    <h1 className='titulo' style={{ fontSize: '4rem', padding: '10px 0', margin: '0' }}>Nombre empresarial</h1>
+                    <h1 className='titulo-mision'>Nombre empresarial</h1>
                     <div className='producto_nombre'>
-                        <p style={{ fontSize: '1.45rem' }}>El nombre representa una idea de familia extensa, abarcando no solo el hogar, sino una noción más compleja y heterogénea de familia. <br />Hace referencia a aquellas figuras mayores, como abuelas y bisabuelas, que han contribuido al cuidado y la diversión de los más pequeños en el entorno familiar. <br />La identidad de "La Tata" refleja la unión de estas partes en pos de un todo, incorporando elementos lúdicos en su enfoque.</p>
+                        <p className='texto_target'>El nombre representa una idea de familia extensa, abarcando no solo el hogar, sino una noción más compleja y heterogénea de familia. <br />Hace referencia a aquellas figuras mayores, como abuelas y bisabuelas, que han contribuido al cuidado y la diversión de los más pequeños en el entorno familiar. <br />La identidad de "La Tata" refleja la unión de estas partes en pos de un todo, incorporando elementos lúdicos en su enfoque.</p>
                         <img src={nombre} alt="nombre" className='nombre-tata'></img>
                     </div>
-                    <h1 className='titulo' style={{ fontSize: '4rem', padding: '10px 0', margin: '0' }}>Logos</h1>
+                    <h1 className='titulo-mision'>Logos</h1>
                     <div className='container-logos'>
                         <img src={logo1} alt='logo la tata' className='logo-tata'></img>
                         <img src={logo2} alt='logo la tata' className='logo-tata'></img>
                     </div>
-                    <h1 className='titulo' style={{ fontSize: '4rem', padding: '10px 0', margin: '0' }}>Logos de la aplicación</h1>
+                    <h1 className='titulo-mision'>Logos de la aplicación</h1>
                     <div className='container-logos' style={{ display: 'flex', justifyContent: 'flex-start' }}>
                         <img src={logo3} alt='logo la tata' className='logo-app'></img>
                     </div>
                 </div>
                 <div className='container-colores'>
-                    <h1 className='titulo' style={{ fontSize: '4rem', padding: '10px 0', margin: '0' }}>Colores</h1>
+                    <h1 className='titulo-mision'>Colores</h1>
                     <div className='producto_colores'>
                         <div className='colores_rosa'>
                             <h2 className='titulo-colores'>Rosa:</h2>
@@ -90,14 +90,14 @@ export default function PlanDeMarketing() {
                     <p style={{ fontSize: '1.7rem', textAlign: 'justify' }}>Al combinar estos colores, "La Tata" busca transmitir una imagen de cuidado amoroso, confianza, profesionalismo y energía positiva. Cada color se ha elegido estratégicamente para generar un impacto emocional que refleja nuestra dedicación a proporcionar un cuidado seguro y amoroso a los niños, así como tranquilidad y confianza a los padres.</p>
                 </div>
                 <div className='container-tipografia'>
-                    <h1 className='titulo' style={{ fontSize: '4rem', padding: '10px 0', margin: '0' }}>Tipografía</h1>
-                    <div>
-                        <p style={{ fontSize: '1.7rem', textAlign: 'justify' }}>La tipografía elegida para nuestra empresa será la llamada ‘Roboto’ quedaron bien definidos los tamaños de los títulos y los cuerpos de la aplicación la tipografía elegida es del estilo tradicional hijas de las tipografías como la Arial, si bien es simple y legible es moderna, adaptándose a la actualidad y a la novedad de nuestra empresa. Roboto es la tipografía elegida porque no es rígida, es tradicional pero innovadora, legible, idónea para nuestra aplicación.</p>
+                    <h1 className='titulo-mision'>Tipografía</h1>
+                    <div className='tipografia'>
+                        <p className='texto_target'>La tipografía elegida para nuestra empresa será la llamada ‘Roboto’ quedaron bien definidos los tamaños de los títulos y los cuerpos de la aplicación la tipografía elegida es del estilo tradicional hijas de las tipografías como la Arial, si bien es simple y legible es moderna, adaptándose a la actualidad y a la novedad de nuestra empresa. Roboto es la tipografía elegida porque no es rígida, es tradicional pero innovadora, legible, idónea para nuestra aplicación.</p>
                         <p className='texto-tipografia'>Roboto Thin 100</p>
                     </div>
                 </div>
                 <div className='container-calidad-servicio'>
-                    <h1 className='titulo' style={{ fontSize: '4rem', padding: '10px 0', margin: '0' }}>Calidad del Servicio</h1>
+                    <h1 className='titulo-mision'>Calidad del Servicio</h1>
                     <div className='caja_calidad'>
                         <div className='cajas_calidad'>
                             <h1 className='cajas__numeros2'>1.</h1>
