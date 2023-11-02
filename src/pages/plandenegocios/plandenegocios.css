@@ -200,4 +200,7 @@ p {
         width: 200px;
         padding: 20px;
     }
+    .descripcion_final{
+        padding-left: 50px;
+    }
 }
