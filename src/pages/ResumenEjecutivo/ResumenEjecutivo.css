@@ -145,12 +145,12 @@
 }
 @media screen and (max-width: 667px) {
     .container_RE {
-        padding: 40px 40px 0 40px;
+        padding: 20px 20px 0 20px;
     }
     .fondo_RE {
         background-image: none;
         background-color: #255974;
-        padding: 80px 0px 20px 0px;
+        padding: 60px 0px 20px 0px;
         display: flex;
         flex-direction: row;
         justify-content: center;
