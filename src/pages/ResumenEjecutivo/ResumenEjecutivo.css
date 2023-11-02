@@ -171,7 +171,7 @@
         align-items: center;
         justify-content: center;
         gap: 10px;
-        padding: 20px 0 0 0;
+        padding: 20px 20px 20px 40px;
     }
 
     .logo-RE {
@@ -199,6 +199,7 @@
         align-items: center;
         justify-content: center;
         gap: 10px;
+        padding: 20px 20px 20px 40px;
     }
 
     .parte3_RE {
@@ -207,6 +208,7 @@
         align-items: center;
         justify-content: center;
         gap: 10px;
+        padding: 20px 20px 20px 40px;
     }
 
     .img-tata {
