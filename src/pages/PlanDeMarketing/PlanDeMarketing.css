@@ -520,7 +520,7 @@
     .container-calidad-servicio{
         padding-left: 60px;
     }
-    .caja_calidad, .cajas_canales{
+    .caja_calidad, .cajas_canales, .cajas_estrategias{
         grid-template-columns: repeat(2, 180px);
         justify-content: center;
         align-items: center;
@@ -528,7 +528,7 @@
         display: grid;
         justify-items: center;
     }
-    .cajas_calidad, .cajas_canal{
+    .cajas_calidad, .cajas_canal, .cajas_es{
         width: 150px;
         height: 150px;
         gap:0;
@@ -558,5 +558,8 @@
     .texto-precios{
         width: 100%;
         max-width: 400px;
+    }
+    .img_postventa{
+        width: 100%;
     }
 }
