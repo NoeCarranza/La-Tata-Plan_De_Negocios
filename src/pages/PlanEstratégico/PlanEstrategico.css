@@ -505,10 +505,10 @@
         gap:5px;
         display: grid;
         justify-items: center;
-        padding-left: 50px;
+        padding: 40px 20px 40px 80px;
     }
     .container_valores{
-        padding-left: 50px;
+        padding: 40px 20px 40px 80px;
     }
     .vision,
     .mision, 
