@@ -526,6 +526,7 @@
         align-items: center;
         gap:5px;
         display: grid;
+        padding-left: 60px;
         justify-items: center;
     }
     .cajas_calidad, .cajas_canal, .cajas_es{
