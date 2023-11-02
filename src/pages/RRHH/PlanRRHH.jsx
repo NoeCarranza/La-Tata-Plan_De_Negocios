@@ -61,7 +61,7 @@ function PlanRRHH() {
         ></img>
       </div>
       <div className="container-cde">
-        <h1 className="titulo-mision">Codigos de ética</h1>
+        <h1 className="titulo-mision">Códigos de ética</h1>
         <div className="cde-trab">
           <img
             src={cdetrab}
@@ -78,8 +78,8 @@ function PlanRRHH() {
       <div className="container-puestos">
         <h1 className="titulo-mision">Puestos</h1>
         <div className="puestos-descrip">
-          <img src={puestoby} alt="responsabilidades puestos babysitter"></img>
-          <img src={puestocm} alt="responsabilidades puestos cm"></img>
+          <img src={puestoby} alt="responsabilidades puestos babysitter" className="img-puestos"></img>
+          <img src={puestocm} alt="responsabilidades puestos cm" className="img-puestos"></img>
         </div>
       </div>
       <div className="container-incentivos">
