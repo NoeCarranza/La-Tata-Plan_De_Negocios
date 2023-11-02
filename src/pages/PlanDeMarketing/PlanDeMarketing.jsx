@@ -54,7 +54,7 @@ export default function PlanDeMarketing() {
                 <div className='container_nombre_producto'>
                     <h1 className='titulo-mision'>Nombre empresarial</h1>
                     <div className='producto_nombre'>
-                        <p className='texto_target'>El nombre representa una idea de familia extensa, abarcando no solo el hogar, sino una noción más compleja y heterogénea de familia. <br />Hace referencia a aquellas figuras mayores, como abuelas y bisabuelas, que han contribuido al cuidado y la diversión de los más pequeños en el entorno familiar. <br />La identidad de "La Tata" refleja la unión de estas partes en pos de un todo, incorporando elementos lúdicos en su enfoque.</p>
+                        <p className='texto-conclusion'>El nombre representa una idea de familia extensa, abarcando no solo el hogar, sino una noción más compleja y heterogénea de familia. <br />Hace referencia a aquellas figuras mayores, como abuelas y bisabuelas, que han contribuido al cuidado y la diversión de los más pequeños en el entorno familiar. <br />La identidad de "La Tata" refleja la unión de estas partes en pos de un todo, incorporando elementos lúdicos en su enfoque.</p>
                         <img src={nombre} alt="nombre" className='nombre-tata'></img>
                     </div>
                     <h1 className='titulo-mision'>Logos</h1>
@@ -92,7 +92,7 @@ export default function PlanDeMarketing() {
                 <div className='container-tipografia'>
                     <h1 className='titulo-mision'>Tipografía</h1>
                     <div className='tipografia'>
-                        <p className='texto_target'>La tipografía elegida para nuestra empresa será la llamada ‘Roboto’ quedaron bien definidos los tamaños de los títulos y los cuerpos de la aplicación la tipografía elegida es del estilo tradicional hijas de las tipografías como la Arial, si bien es simple y legible es moderna, adaptándose a la actualidad y a la novedad de nuestra empresa. Roboto es la tipografía elegida porque no es rígida, es tradicional pero innovadora, legible, idónea para nuestra aplicación.</p>
+                        <p className='texto-conclusion'>La tipografía elegida para nuestra empresa será la llamada ‘Roboto’ quedaron bien definidos los tamaños de los títulos y los cuerpos de la aplicación la tipografía elegida es del estilo tradicional hijas de las tipografías como la Arial, si bien es simple y legible es moderna, adaptándose a la actualidad y a la novedad de nuestra empresa. Roboto es la tipografía elegida porque no es rígida, es tradicional pero innovadora, legible, idónea para nuestra aplicación.</p>
                         <p className='texto-tipografia'>Roboto Thin 100</p>
                     </div>
                 </div>
@@ -196,11 +196,11 @@ export default function PlanDeMarketing() {
                 </div>
                 <div className='container_nivel_canal'>
                     <h1 className='titulo-mision'>Nivel de canal cero</h1>
-                    <p className='texto-target'>"La Tata" podría identificarse en un canal de cero niveles o canal de marketing directo. Esto se debe a que la empresa tiene como objetivo proporcionar servicios de cuidado infantil directamente a los clientes finales (los padres o tutores) sin la intermediación de mayoristas, detallistas u otros intermediarios tradicionales.</p>
+                    <p className='texto-conclusion'>"La Tata" podría identificarse en un canal de cero niveles o canal de marketing directo. Esto se debe a que la empresa tiene como objetivo proporcionar servicios de cuidado infantil directamente a los clientes finales (los padres o tutores) sin la intermediación de mayoristas, detallistas u otros intermediarios tradicionales.</p>
                 </div>
                 <div className='container_logistica'>
                     <h1 className='titulo-mision'>Logística de mercado</h1>
-                    <p className='texto-target'>La estrategia de "La Tata" se centrará en la optimización de la plataforma y la experiencia del usuario, permitiendo la conexión rápida y efectiva entre los padres o tutores y las babysitters disponibles. Además, es fundamental mantener un monitoreo constante de la disponibilidad de babysitters  y la satisfacción de los clientes.
+                    <p className='texto-conclusion'>La estrategia de "La Tata" se centrará en la optimización de la plataforma y la experiencia del usuario, permitiendo la conexión rápida y efectiva entre los padres o tutores y las babysitters disponibles. Además, es fundamental mantener un monitoreo constante de la disponibilidad de babysitters  y la satisfacción de los clientes.
                         <br /><br />
                         En resumen, la distribución física en este contexto se enfocaría en la gestión de recursos humanos (babysitters) y la plataforma tecnológica que permite la conexión entre los usuarios y los proveedores de servicios de cuidado infantil.
                     </p>

@@ -490,6 +490,22 @@
     }
 }
 @media screen and (max-width: 667px) {
+    .container_section1,
+    .container_ciclo_producto,
+    .container_nombre_producto,
+    .container-colores,
+    .container-colores,
+    .container-tipografia,
+    .container-calidad-servicio,
+    .container-politica-precios,
+    .container_plaza,
+    .container_nivel_canal,
+    .container_logistica,
+    .container_estrategias,
+    .container_postventa,
+    .container_resumen{
+        padding: 20px 20px 20px 70px;
+    }
     .container-logos{
         display: flex;
         justify-content: center;
@@ -499,13 +515,6 @@
     }
     .cajas_producto{
         grid-template-columns: 1fr;
-    }
-    .container_ciclo_producto, .container_estrategias{
-        padding: 40px 70px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
     }
     .caja_estrategias{
         grid-template-columns: repeat(2, 200px);
@@ -517,17 +526,18 @@
         width: 200px;
         height: 200px;
     }
-    .container-calidad-servicio{
-        padding-left: 60px;
-    }
-    .caja_calidad, .cajas_canales, .cajas_estrategias{
+    .caja_calidad, .cajas_canales{
         grid-template-columns: repeat(2, 180px);
         justify-content: center;
         align-items: center;
         gap:5px;
         display: grid;
-        padding-left: 60px;
         justify-items: center;
+    }
+    .caja_estrategias{
+        grid-template-columns: repeat(2, 170px);
+        gap:10px;
+        margin: 0;
     }
     .cajas_calidad, .cajas_canal, .cajas_es{
         width: 150px;
@@ -542,6 +552,7 @@
     }
     .texto-conclusion{
         max-width: 550px;
+        width: 100%;
     }
     .producto_nombre, 
     .container-logos,
