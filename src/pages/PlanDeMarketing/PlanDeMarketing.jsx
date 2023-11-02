@@ -63,7 +63,7 @@ export default function PlanDeMarketing() {
                         <img src={logo2} alt='logo la tata' className='logo-tata'></img>
                     </div>
                     <h1 className='titulo-mision'>Logos de la aplicación</h1>
-                    <div className='container-logos' style={{ display: 'flex', justifyContent: 'flex-start' }}>
+                    <div className='container-logos'>
                         <img src={logo3} alt='logo la tata' className='logo-app'></img>
                     </div>
                 </div>

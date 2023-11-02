@@ -489,3 +489,32 @@
         flex-direction: column;
     }
 }
+@media screen and (max-width: 667px) {
+    .container-logos{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-app{
+        width: 400px;
+    }
+    .container_ciclo_producto, .container_estrategias{
+        padding: 40px 70px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .caja_estrategias{
+        grid-template-columns: repeat(2, 200px);
+    }
+    .cajas_es:last-child {
+        grid-column-start: 1;
+    }
+    .cajas_canal{
+        width: 200px;
+        height: 200px;
+    }
+    .texto_canal {
+        font-size: 1.3rem;
+    }
+}
