@@ -584,4 +584,8 @@
         align-items: center;
         gap:5px;
     }
+    .titulo-mision{
+        text-align: start;
+        
+    }
 }
