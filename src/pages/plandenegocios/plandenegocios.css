@@ -59,13 +59,16 @@ p {
     justify-content: center;
     text-align: center;
 }
-.logo-la-tata{
+
+.logo-la-tata {
     width: 300px;
-    padding-right:170px;
+    padding-right: 170px;
 }
+
 .textopn-2 {
     width: 50%;
 }
+
 .textopn-3 {
     width: 50%;
 }
@@ -87,10 +90,12 @@ p {
     border-radius: 40px;
     width: 60%;
 }
+
 .img_cuerpo2 {
     border-radius: 40px;
     width: 60%;
 }
+
 .cuadros {
     display: flex;
     flex-direction: column;
@@ -119,88 +124,115 @@ p {
         justify-content: center;
         align-items: center;
     }
-    .descripcion_texto{
+
+    .descripcion_texto {
         padding-left: 60px;
     }
+
     .titulo-pn {
         padding: 0;
         font-size: 3rem;
         text-align: center;
     }
-    .textopn-1{
+
+    .textopn-1 {
         font-size: 1.3rem;
     }
+
     .img_personas {
         width: 650px;
     }
-    .descripcion__tata{
+
+    .descripcion__tata {
         padding-left: 60px;
         grid-template-columns: 1fr 0.5fr;
     }
+
     .descripcion_dupla {
         padding-left: 60px;
     }
-    .textopn-2, .textopn-3 {
+
+    .textopn-2,
+    .textopn-3 {
         font-size: 1.3rem;
         hyphens: auto;
         max-width: 280px;
         width: 100%;
-        text-align:justify;
+        text-align: justify;
     }
+
     .img_cuerpo {
         width: 80%;
     }
-    .img_cuerpo2{
+
+    .img_cuerpo2 {
         display: none;
     }
-    .textopn-4{
+
+    .textopn-4 {
         width: 90%;
         font-size: 1.3rem;
     }
-    .logo-la-tata{
+
+    .logo-la-tata {
         width: 250px;
         padding-right: 40px;
     }
 }
+
 @media screen and (max-width: 667px) {
-    .img_personas{
-        width: 380px;
+    .img_personas {
+        width: 300px;
+        padding: 0;
     }
-    .textopn-1{
+
+    .textopn-1,
+    .textopn-2,
+    .textopn-3,
+    .textopn-4 {
         padding: 20px 0;
         font-size: 1.2rem;
+        text-align: justify;
+        hyphens: auto;
     }
-    .descripcion__tata{
+
+    .descripcion__tata {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    .logo-la-tata{
+
+    .logo-la-tata {
         width: 200px;
     }
-    .textopn-2,
-    .textopn-3{
+
+    /* {
         padding: 0;
         font-size: 1.2rem;
         width: 100%;
         max-width: 360px;
-    }
-    .textopn-4{
+    } */
+    /* {
         padding: 0;
         font-size: 1.2rem;
         width: 100%;
         max-width: 360px;
-    }
-    .descripcion_dupla{
+    } */
+    .descripcion_dupla {
         flex-direction: column;
     }
+
     .img_cuerpo {
         width: 60%;
     }
-    .logo-tata{
+
+    .logo-tata {
         width: 200px;
         padding: 20px;
     }
-    .descripcion_final{
+
+    .descripcion_final {
         padding-left: 50px;
     }
 }

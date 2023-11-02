@@ -508,9 +508,6 @@
         display: grid;
         justify-items: center;
     }
-    .img_personas{
-        padding-left: 40px;
-    }
     .vision,
     .mision, 
     .box_target{
