@@ -1,24 +1,33 @@
-p{
+p {
     font-size: 2rem;
     font-family: Gabarito, sans-serif;
-    
+
 }
 
-.container_plandenegocios{
+.container_plandenegocios {
     display: flex;
     flex-direction: column;
 }
 
-.descripción_plan_negocios{
-background-image: url("../../assets/background-plan-de-n.jpg");
-background-repeat: no-repeat;
-margin: 0;
-height: auto;
-padding-top: 140px;
-background-size:cover;
+.descripción_plan_negocios {
+    background-image: url("../../assets/background-plan-de-n.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    height: auto;
+    padding-top: 140px;
+    background-size: cover;
 
 }
-.descripcion_texto{
+
+.titulo-pn {
+    margin: 0;
+    padding: 500px 0 0 80px;
+    color: white;
+    font-size: 5rem;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.descripcion_texto {
     background-color: rgb(243, 187, 148);
     display: flex;
     flex-direction: column;
@@ -26,24 +35,45 @@ background-size:cover;
     justify-content: center;
     hyphens: auto;
 }
-.img_personas{
+
+.textopn-1 {
+    padding: 60px 60px 60px 90px;
+    margin: 0;
+    text-align: center;
+    width: 80%;
+}
+
+.img_personas {
     width: 60%;
     padding-bottom: 20px;
 }
 
-.descripcion__tata{
+.descripcion__tata {
     background-color: rgb(232, 125, 145);
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     padding: 50px 0;
-    gap:0;
+    gap: 0;
     justify-items: center;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.descripcion_dupla{
+.textopn-2 {
+    width: 70%;
+}
+
+.textopn-3 {
+    width: 60%;
+}
+
+.textopn-4 {
+    width: 40%;
+    font-size: 30px;
+}
+
+.descripcion_dupla {
     display: flex;
     flex-direction: row;
     background-color: rgb(232, 234, 236);
@@ -51,19 +81,22 @@ background-size:cover;
     text-align: center;
 }
 
-.img_cuerpo{
+.img_cuerpo {
     border-radius: 40px;
     width: 60%;
 }
-
-.cuadros{
+.img_cuerpo2 {
+    border-radius: 40px;
+    width: 60%;
+}
+.cuadros {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-.descripcion_final{
+.descripcion_final {
     background-color: rgb(181, 218, 237);
     display: flex;
     flex-direction: row;
@@ -74,3 +107,46 @@ background-size:cover;
     justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+    .descripción_plan_negocios {
+        background-image: none;
+        background-color: rgb(232, 148, 164);
+        padding: 80px 0px 20px 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .descripcion_texto{
+        padding-left: 60px;
+    }
+    .titulo-pn {
+        padding: 0;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .textopn-1{
+        font-size: 1.3rem;
+    }
+    .img_personas {
+        width: 650px;
+    }
+    .descripcion__tata, .descripcion_dupla {
+        padding-left: 60px;
+    }
+    .textopn-2, .textopn-3 {
+        font-size: 1.3rem;
+        hyphens: auto;
+    }
+    .img_cuerpo {
+        width: 80%;
+    }
+    .img_cuerpo2{
+        display: none;
+    }
+    .textopn-4{
+        width: 90%;
+        font-size: 1.3rem;
+    }
+
+}
