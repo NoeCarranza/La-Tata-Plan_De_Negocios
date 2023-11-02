@@ -132,13 +132,13 @@ export default function PlanDeMarketing() {
                     <h1 className='titulo-p'>Precio</h1>
                 </div>
                 <div className='container-politica-precios'>
-                    <h1 className='titulo' style={{ margin: '0', color: 'black', fontSize: '4rem', textAlign: 'start' }}>Establecimiento de una política de precios</h1>
-                    <p className='texto-precios'>‘La Tata’ para respaldar el liderazgo en calidad justificará sus precios más altos al enfocarse en brindar un servicio excepcionalmente seguro, confiable y de alta calidad; es por ello que los precios establecidos reflejarán la percepción de que los servicios brindados son superiores a los de la competencia debido a la alta calidad y la atención al detalle del mismo.</p>
+                    <h1 className='titulo-mision'>Establecimiento de una política de precios</h1>
+                    <p className='texto-target'>‘La Tata’ para respaldar el liderazgo en calidad justificará sus precios más altos al enfocarse en brindar un servicio excepcionalmente seguro, confiable y de alta calidad; es por ello que los precios establecidos reflejarán la percepción de que los servicios brindados son superiores a los de la competencia debido a la alta calidad y la atención al detalle del mismo.</p>
                     <div>
-                        <h1 className='titulo' style={{ margin: '0', color: 'black', fontSize: '4rem', textAlign: 'start' }}>Estimación de costos</h1>
+                        <h1 className='titulo-mision'>Estimación de costos</h1>
                     </div>
                     <div>
-                        <h1 className='titulo' style={{ margin: '0', color: 'black', fontSize: '4rem', textAlign: 'start' }}>Método de fijación de precios</h1>
+                        <h1 className='titulo-mision'>Método de fijación de precios</h1>
                         <p className='texto-precios'>Fijación de Precios por Valor Percibido: ya que nos centraremos en la percepción del valor de la oferta por parte del mercado. Para "La Tata", es importante determinar cómo los padres perciben el valor de los servicios de cuidado infantil que ofreces y fijar precios que reflejen esa percepción de valor.
                         </p>
                         <p className='texto-precios'>Fijación de Precios Psicológica:  Los consumidores a menudo utilizan el precio como un indicador de calidad. Esto significa que el precio que se establezca puede influir en la percepción de los clientes sobre la calidad de los servicios de cuidado infantil.
@@ -148,14 +148,14 @@ export default function PlanDeMarketing() {
                 </div>
             </div>
             <div className='3-Plaza'>
-                <div style={{ display: 'flex', flexDirection: 'row', padding: '0 0 0 120px', alignItems: 'center', gap: '10px', backgroundColor: '#255974' }}>
-                    <h1 style={{ fontFamily: 'Rozha One', fontSize: '4rem', color: 'white', }}>3.</h1>
-                    <h1 className='titulo' style={{ margin: '0', color: 'white', fontSize: '4rem', textAlign: 'start' }}>Plaza</h1>
+                <div className='p'>
+                    <h1 className='titulo-p'>3.</h1>
+                    <h1 className='titulo-p'>Plaza</h1>
                 </div>
                 <div className='container_plaza'>
                     <div>
-                        <h1 className='titulo' style={{ margin: '0', color: 'black', fontSize: '4rem', textAlign: 'start' }}>Canales de distribución</h1>
-                        <h1 className='titulo' style={{ margin: '0', color: 'black', fontSize: '3rem', textAlign: 'start', paddingTop: '20px' }}>Selección de los canales de distribución apropiados</h1>
+                        <h1 className='titulo-mision' >Canales de distribución</h1>
+                        <h1 className='titulo-mision'>Selección de los canales de distribución apropiados</h1>
                     </div>
                     <div>
                         <div className='cajas_canales'>
@@ -195,24 +195,24 @@ export default function PlanDeMarketing() {
                     </div>
                 </div>
                 <div className='container_nivel_canal'>
-                    <h1 className='titulo' style={{ margin: '0', color: 'black', fontSize: '4rem', textAlign: 'start' }}>Nivel de canal cero</h1>
-                    <p style={{ fontSize: '1.5rem' }}>"La Tata" podría identificarse en un canal de cero niveles o canal de marketing directo. Esto se debe a que la empresa tiene como objetivo proporcionar servicios de cuidado infantil directamente a los clientes finales (los padres o tutores) sin la intermediación de mayoristas, detallistas u otros intermediarios tradicionales.</p>
+                    <h1 className='titulo-mision'>Nivel de canal cero</h1>
+                    <p className='texto-target'>"La Tata" podría identificarse en un canal de cero niveles o canal de marketing directo. Esto se debe a que la empresa tiene como objetivo proporcionar servicios de cuidado infantil directamente a los clientes finales (los padres o tutores) sin la intermediación de mayoristas, detallistas u otros intermediarios tradicionales.</p>
                 </div>
                 <div className='container_logistica'>
-                    <h1 className='titulo' style={{ margin: '0', color: 'black', fontSize: '4rem', textAlign: 'start' }}>Logística de mercado</h1>
-                    <p style={{ fontSize: '1.5rem' }}>La estrategia de "La Tata" se centrará en la optimización de la plataforma y la experiencia del usuario, permitiendo la conexión rápida y efectiva entre los padres o tutores y las babysitters disponibles. Además, es fundamental mantener un monitoreo constante de la disponibilidad de babysitters  y la satisfacción de los clientes.
+                    <h1 className='titulo-mision'>Logística de mercado</h1>
+                    <p className='texto-target'>La estrategia de "La Tata" se centrará en la optimización de la plataforma y la experiencia del usuario, permitiendo la conexión rápida y efectiva entre los padres o tutores y las babysitters disponibles. Además, es fundamental mantener un monitoreo constante de la disponibilidad de babysitters  y la satisfacción de los clientes.
                         <br /><br />
                         En resumen, la distribución física en este contexto se enfocaría en la gestión de recursos humanos (babysitters) y la plataforma tecnológica que permite la conexión entre los usuarios y los proveedores de servicios de cuidado infantil.
                     </p>
                 </div>
             </div>
             <div className='4-Promocion'>
-                <div style={{ display: 'flex', flexDirection: 'row', padding: '0 0 0 120px', alignItems: 'center', gap: '10px', backgroundColor: '#255974' }}>
-                    <h1 style={{ fontFamily: 'Rozha One', fontSize: '4rem', color: 'white', }}>3.</h1>
-                    <h1 className='titulo' style={{ margin: '0', color: 'white', fontSize: '4rem', textAlign: 'start' }}>Promoción</h1>
+                <div className='p'>
+                    <h1 className='titulo-p'>3.</h1>
+                    <h1 className='titulo-p'>Promoción</h1>
                 </div>
                 <div className='container_estrategias'>
-                    <h1 className='titulo' style={{ margin: '0', color: 'black', fontSize: '4rem', textAlign: 'start' }}>Estrategias de promoción</h1>
+                    <h1 className='titulo-mision'>Estrategias de promoción</h1>
                     <div className='caja_estrategias'>
                         <div className='cajas_es'>
                             <h1 className='titulo_estrategia'>1. Publicidad</h1>
@@ -245,13 +245,13 @@ export default function PlanDeMarketing() {
                     </div>
                 </div>
                 <div className='container_postventa'>
-                    <h1 className='titulo' style={{ margin: '0', color: 'black', fontSize: '4rem', textAlign: 'start' }}>Estrategias de Servicios Postventa</h1>
+                    <h1 className='titulo-mision'>Estrategias de Servicios Postventa</h1>
                     <img src={estrategias} alt="estrategias de postventa" className='img_postventa'></img>
                 </div>
                 <div className='container_resumen'>
-                    <h1 className='titulo' style={{ margin: '0', color: 'black', fontSize: '4rem', textAlign: 'start' }}>Conclusión</h1>
+                    <h1 className='titulo-mision'>Conclusión</h1>
                     <div className='resumen_texto'>
-                        <p style={{ fontSize: '1.3rem' }}>  "La Tata" tiene proyectado convertirse en un referente destacado del cuidado infantil, basado en su enfoque en la calidad, la confiabilidad y la personalización del servicio. <br /><br />Se espera que la empresa consolide su presencia en varios mercados y establezca alianzas estratégicas con instituciones educativas y de salud, fortaleciendo así su compromiso con la excelencia. <br /><br />Con un equipo altamente calificado y una infraestructura de vanguardia, "La Tata" se propone ofrecer un entorno seguro y enriquecedor para las familias, satisfaciendo las demandas cambiantes del cuidado infantil moderno.</p>
+                        <p className='texto-target'>  "La Tata" tiene proyectado convertirse en un referente destacado del cuidado infantil, basado en su enfoque en la calidad, la confiabilidad y la personalización del servicio. <br /><br />Se espera que la empresa consolide su presencia en varios mercados y establezca alianzas estratégicas con instituciones educativas y de salud, fortaleciendo así su compromiso con la excelencia. <br /><br />Con un equipo altamente calificado y una infraestructura de vanguardia, "La Tata" se propone ofrecer un entorno seguro y enriquecedor para las familias, satisfaciendo las demandas cambiantes del cuidado infantil moderno.</p>
                         <img src={app} alt="imagen ilustrativa de la aplicación" style={{ width: '40%' }}></img>
                     </div>
                 </div>

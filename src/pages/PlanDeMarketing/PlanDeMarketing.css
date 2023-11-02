@@ -373,7 +373,9 @@
         padding: 40px 20px 40px 80px;
     }
 
-    .cajas_producto, .caja_calidad {
+    .cajas_producto,
+    .caja_calidad,
+    .cajas_canales {
         padding-top: 20px;
         grid-template-columns: repeat(2, 280px);
         gap: 20px;
@@ -405,11 +407,16 @@
     .img_ciclo {
         width: 100%;
     }
+
     .container_nombre_producto,
     .container-colores,
-    .container-tipografia{
+    .container-tipografia,
+    .container_plaza,
+    .container_estrategias,
+    .container_resumen {
         padding: 40px 20px 40px 80px;
     }
+
     .producto_nombre {
         display: flex;
         flex-direction: row;
@@ -418,25 +425,67 @@
     .nombre-tata {
         width: 200px;
     }
-    .logo-tata{
+
+    .logo-tata {
         width: 200px;
     }
-    .logo-app{
+
+    .logo-app {
         width: 650px;
     }
-    .producto_colores{
+
+    .producto_colores {
         padding-top: 20px;
         grid-template-columns: repeat(2, 1fr);
     }
-    .tipografia{
+
+    .tipografia {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap:20px;
+        gap: 20px;
     }
-    .texto_calidad{
+
+    .texto_calidad,
+    .texto_canal {
         font-size: 1.5rem;
         text-align: center;
         font-weight: 600;
+    }
+
+    .texto_estrategia {
+        display: none;
+    }
+
+    .caja_estrategias {
+        grid-template-columns: repeat(3, 200px);
+        gap: 20px;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .cajas_es {
+        width: 150px;
+        height: 150px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .texto-precios {
+        font-size: 1.3rem;
+    }
+
+    .titulo_estrategia {
+        padding: 0;
+        hyphens: auto;
+        font-size: 1.5rem;
+    }
+    .img_postventa{
+        width: 100%;
+    }
+    .resumen_texto {
+        display: flex;
+        flex-direction: column;
     }
 }
