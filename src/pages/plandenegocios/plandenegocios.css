@@ -164,7 +164,7 @@ p {
 }
 @media screen and (max-width: 667px) {
     .img_personas{
-        width: 400px;
+        width: 380px;
     }
     .textopn-1{
         padding: 20px 0;
@@ -174,12 +174,17 @@ p {
         grid-template-columns: 1fr;
     }
     .textopn-2,
-    .textopn-3,
-    .textopn-4{
+    .textopn-3{
         padding: 0;
         font-size: 1.2rem;
         width: 100%;
         max-width: 360px;
+    }
+    .textopn-4{
+        padding: 0;
+        font-size: 1.2rem;
+        width: 100%;
+        max-width: 330px;
     }
     .descripcion_dupla{
         flex-direction: column;
