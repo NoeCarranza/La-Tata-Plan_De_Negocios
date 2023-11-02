@@ -8,7 +8,6 @@ import PlanDeNegocios from './pages/plandenegocios/PlanDeNegocios';
 import PlanEstrategico from './pages/PlanEstratégico/PlanEstrategico';
 import PlanDeMarketing from './pages/PlanDeMarketing/PlanDeMarketing';
 import PlanRRHH from './pages/RRHH/PlanRRHH';
-import PlanFinanciero from './pages/PlanFinanciero/PlanFinanciero';
 
 function App() {
 
@@ -22,7 +21,6 @@ function App() {
         <Route path="/PlanEstrategico" element={<PlanEstrategico />} />
         <Route path="/PlanDeMarketing" element={<PlanDeMarketing />} />
         <Route path="/PlanDeRecursosHumanos" element={<PlanRRHH />} />
-        <Route path="/PlanFinanciero" element={<PlanFinanciero />} />
       </Routes>
       <Footer />
     </Router>

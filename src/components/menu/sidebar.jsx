@@ -97,7 +97,6 @@ const ListaItems = [
   { text: 'Plan Estratégico', path: '/PlanEstrategico' },
   { text: 'Plan de Marketing', path: '/PlanDeMarketing' },
   { text: 'Plan de RRHH', path: '/PlanDeRecursosHumanos' },
-  { text: 'Plan Financiero', path: '/PlanFinanciero' }
 ];
 
 const iconList = [
@@ -106,8 +105,6 @@ const iconList = [
   <TungstenIcon />,
   <StoreIcon />,
   <Face4Icon />,
-  <CurrencyExchangeIcon />,
-  
 ];
 
 function MiniDrawer() {
