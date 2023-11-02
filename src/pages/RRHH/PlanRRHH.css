@@ -1,4 +1,4 @@
-.container_encabezado{
+.container_encabezado {
     background-image: url('../../assets/background_planrrhh.jpg');
     background-repeat: no-repeat;
     margin: 0;
@@ -6,3 +6,123 @@
     padding-top: 140px;
     background-size: cover;
 }
+
+.container-intro {
+    background-color: rgb(159, 219, 247);
+    padding: 40px 40px 40px 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: start;
+    gap: 38px;
+}
+
+.container-objetivos {
+    background-color: rgb(241, 143, 161);
+    padding: 40px 40px 40px 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: start;
+    gap: 38px;
+}
+
+.organigrama {
+    background-color: rgb(225, 104, 126);
+    padding: 40px 40px 40px 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: start;
+    gap: 38px;
+}
+
+.img-organigrama {
+    width: 50%;
+    align-self: center;
+}
+
+.container-cde {
+    background-color: rgb(241, 143, 161);
+    padding: 40px 40px 40px 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: start;
+}
+.cde-trab{
+    display: flex;
+    flex-direction: row;
+}
+.img-cde{
+    width: 50%;
+}
+.img-cde2{
+    width: 50%;
+}
+.container-puestos{
+        background-color: rgba(232, 125, 145, 0.698);
+        padding: 40px 0;
+        margin: 0;
+        padding: 40px 60px 40px 120px;
+        display: flex;
+        flex-direction: column;
+}
+.puestos-descrip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-incentivos{
+    background-color: rgba(232, 125, 145, 0.806);
+        padding: 40px 0;
+        margin: 0;
+        padding: 40px 60px 40px 120px;
+        display: flex;
+        flex-direction: column;
+}
+.div_incentivos{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.img-incentivos{
+    width: 60%;
+}
+.container-hys{
+    background-color: rgba(232, 125, 145, 0.925);
+        padding: 40px 0;
+        margin: 0;
+        padding: 40px 60px 40px 120px;
+        display: flex;
+        flex-direction: column;
+}
+.hys-tipos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.img-hyso{
+    width: 70%;
+    align-self: center;
+}
+.img-hysb{
+    width: 600px;
+    height: auto;
+}
+.img-hysb2{
+    width: 600px;
+    height: auto;
+}
+.container-capacitaciones{
+    background-color: rgb(238, 161, 175);
+    padding: 40px 0;
+    margin: 0;
+    padding: 40px 60px 40px 120px;
+    display: flex;
+    flex-direction: column;
+}
+
