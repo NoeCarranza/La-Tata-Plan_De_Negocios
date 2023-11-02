@@ -230,11 +230,12 @@
 
 .container_factorestarget {
     background-color: rgb(205, 226, 236);
-    padding: 40px 120px;
+    padding: 40px 60px 40px 120px;
 }
 
 .container_motivacion {
     background-color: rgba(232, 125, 145, 0.247);
+    padding: 40px 60px 40px 120px;
 }
 
 .container__motivar {
@@ -354,6 +355,7 @@
     .titulo-mision {
         padding: 0;
         font-size: 2rem;
+        hyphens: auto;
     }
 
     .mision {
