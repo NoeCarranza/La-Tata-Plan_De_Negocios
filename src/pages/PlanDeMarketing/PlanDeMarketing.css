@@ -515,6 +515,7 @@
     }
     .cajas_producto{
         grid-template-columns: 1fr;
+        justify-items: center;
     }
     .caja_estrategias{
         grid-template-columns: repeat(2, 200px);
@@ -573,5 +574,11 @@
     }
     .img_postventa{
         width: 100%;
+    }
+    .p{
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        gap:5px;
     }
 }
