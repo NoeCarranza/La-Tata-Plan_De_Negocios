@@ -323,7 +323,7 @@
 @media screen and (max-width: 768px) {
     .descripcion__plan__estrategico {
         background-image: none;
-        background-color: rgb(181, 218, 237);
+        background-color: #255974;
         padding: 80px 0px 20px 80px;
         display: flex;
         flex-direction: row;

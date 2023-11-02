@@ -517,4 +517,7 @@
     .texto_canal {
         font-size: 1.3rem;
     }
+    .texto-conclusion{
+        max-width: 550px;
+    }
 }

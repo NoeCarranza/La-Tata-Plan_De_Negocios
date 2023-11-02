@@ -227,3 +227,14 @@
         grid-template-columns: 1fr;
     }
 }
+@media screen and (max-width: 667px) {
+    .titulo-intro{
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+    .texto_intro{
+        font-size: 1.5rem;
+        padding: 0;
+        margin: 0;
+    }
+}

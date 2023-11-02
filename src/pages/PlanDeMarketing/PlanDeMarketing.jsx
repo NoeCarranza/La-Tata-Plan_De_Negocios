@@ -251,7 +251,7 @@ export default function PlanDeMarketing() {
                 <div className='container_resumen'>
                     <h1 className='titulo-mision'>Conclusión</h1>
                     <div className='resumen_texto'>
-                        <p className='texto-target'>  "La Tata" tiene proyectado convertirse en un referente destacado del cuidado infantil, basado en su enfoque en la calidad, la confiabilidad y la personalización del servicio. <br /><br />Se espera que la empresa consolide su presencia en varios mercados y establezca alianzas estratégicas con instituciones educativas y de salud, fortaleciendo así su compromiso con la excelencia. <br /><br />Con un equipo altamente calificado y una infraestructura de vanguardia, "La Tata" se propone ofrecer un entorno seguro y enriquecedor para las familias, satisfaciendo las demandas cambiantes del cuidado infantil moderno.</p>
+                        <p className='texto-conclusion'>  "La Tata" tiene proyectado convertirse en un referente destacado del cuidado infantil, basado en su enfoque en la calidad, la confiabilidad y la personalización del servicio. <br /><br />Se espera que la empresa consolide su presencia en varios mercados y establezca alianzas estratégicas con instituciones educativas y de salud, fortaleciendo así su compromiso con la excelencia. <br /><br />Con un equipo altamente calificado y una infraestructura de vanguardia, "La Tata" se propone ofrecer un entorno seguro y enriquecedor para las familias, satisfaciendo las demandas cambiantes del cuidado infantil moderno.</p>
                         <img src={app} alt="imagen ilustrativa de la aplicación" style={{ width: '40%' }}></img>
                     </div>
                 </div>

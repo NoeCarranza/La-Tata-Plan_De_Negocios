@@ -147,7 +147,7 @@
 
     .fondo_RE {
         background-image: none;
-        background-color: rgb(181, 218, 237);
+        background-color: #255974;
         padding: 80px 0px 20px 0px;
         display: flex;
         flex-direction: row;
@@ -159,8 +159,8 @@
     .titulo-resumen {
         padding: 0;
         font-size: 3rem;
-        color: black;
-        text-align: start;
+        color: white;
+        text-align: center;
     }
 
     .parte1_RE {
