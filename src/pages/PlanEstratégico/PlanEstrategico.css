@@ -505,7 +505,6 @@
         gap:5px;
         display: grid;
         justify-items: center;
-        padding-left: 50px;
     }
     .vision,
     .mision, 
@@ -527,7 +526,21 @@
     .estrategiaFO{
         flex-direction: column;
     }
-    .container_motivacion{
+    .container_motivacion,
+    .descripcion__texto,
+    .container__foda,
+    .container__mision,
+    .container__vision,
+    .container-objetivose,
+    .container-obj-med,
+    .container_valores,
+    .container_target,
+    .container_factorestarget,
+    .container_estrategia,
+    .container_estrategiaFO,
+    .container_conclusion
+    {
+
         padding-left: 50px;
     }
 }
