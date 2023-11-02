@@ -127,9 +127,9 @@ export default function PlanDeMarketing() {
                 </div>
             </div>
             <div className='2-precio'>
-                <div style={{ display: 'flex', flexDirection: 'row', padding: '0 0 0 120px', alignItems: 'center', gap: '10px', backgroundColor: '#255974' }}>
-                    <h1 style={{ fontFamily: 'Rozha One', fontSize: '4rem', color: 'white', }}>2.</h1>
-                    <h1 className='titulo' style={{ margin: '0', color: 'white', fontSize: '4rem', textAlign: 'start' }}>Precio</h1>
+                <div className='p'>
+                    <h1 className='titulo-p'>2.</h1>
+                    <h1 className='titulo-p'>Precio</h1>
                 </div>
                 <div className='container-politica-precios'>
                     <h1 className='titulo' style={{ margin: '0', color: 'black', fontSize: '4rem', textAlign: 'start' }}>Establecimiento de una política de precios</h1>
