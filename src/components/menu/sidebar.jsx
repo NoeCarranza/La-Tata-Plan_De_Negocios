@@ -118,7 +118,7 @@ function MiniDrawer() {
   };
 
   const handleMenuClick = () => {
-    window.scrollTo(0, 0); 
+    window.scrollTo(0, 0);
   };
   const handleLogoClick = () => {
     window.scrollTo(0, 0);
@@ -140,7 +140,12 @@ function MiniDrawer() {
             <MenuIcon />
           </IconButton>
           <Link to="/">
-            <img src={logo} className="logo" alt="logo La Tata" onClick={handleLogoClick}></img>
+            <img
+              src={logo}
+              className="logo"
+              alt="logo La Tata"
+              onClick={handleLogoClick}
+            ></img>
           </Link>
         </Toolbar>
       </AppBar>
