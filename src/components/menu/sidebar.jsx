@@ -118,7 +118,7 @@ function MiniDrawer() {
   };
 
   const handleMenuClick = () => {
-    window.scrollTo(0, 0); // Desplazamiento hacia la parte superior
+    window.scrollTo(0, 0); 
   };
   return (
     <div className="menu">
