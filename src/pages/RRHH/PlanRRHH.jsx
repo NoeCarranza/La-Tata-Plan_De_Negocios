@@ -43,7 +43,7 @@ function PlanRRHH() {
             una aplicación, que ofrece un acceso innovador, cómodo y práctico de
             contratación simple, proporcionando perfiles de babysitters
             calificados, que brindan un servicio seguro y de calidad para que
-            los papás encuentren  tranquilidad y seguridad en nuestro servicio
+            los papás encuentren tranquilidad y seguridad en nuestro servicio
             sabiendo que sus hijos estarán en buenas manos mientras están
             ausentes.
           </p>
