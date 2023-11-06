@@ -13,7 +13,7 @@ export default function ResumenEjecutivo() {
                 <h1 className="titulo-resumen">Resumen Ejecutivo</h1>
             </div>
             <div className='parte1_RE'>
-                <p className='texto-parte1'>La Tata SAS es una empresa fundada por María Cecilia Giraudo, Natalia Oyola y Noelia Carranza. <br/><br/>Su enfoque principal es brindar servicios de cuidado infantil confiable y de alta calidad, especialmente diseñados para atender las necesidades de padres con horarios laborales variables. <br/><br/>El público objetivo de La Tata se compone principalmente de padres y tutores de entre 25 y 45 años que residen en la ciudad de Río Cuarto. La empresa opera con un equipo compuesto por cuatro babysitters, con su oficina central ubicada en el centro de la ciudad.
+                <p className='texto-parte1'>La Tata SAS es una empresa fundada por María Cecilia Giraudo, Natalia Oyola y Noelia Carranza. <br/><br/>Su enfoque principal es brindar servicios de cuidado infantil confiable y de alta calidad, especialmente diseñados para atender las necesidades de padres con horarios laborales variables. <br/><br/>El público objetivo de La Tata se compone principalmente de padres y tutores de entre 25 y 45 años que residen en la ciudad de Río Cuarto. <br/><br/>La empresa opera con un equipo compuesto por cuatro babysitters, con su oficina central ubicada en el centro de la ciudad.
                 </p>
                 <img src={logo} alt="logo La Tata" className='logo-RE'></img>
             </div>

@@ -56,7 +56,7 @@ function PlanRRHH() {
         </div>
         <div className="cajas_objetivos">
         <h1 className='titulo-p'>Largo Plazo</h1>
-        <p className="texto_intro">Que en el lapso de un año en nuestra ciudad, sea conocido el servicio que brindamos.</p>
+        <p className="texto_intro">Que nuestro servicio sea conocido y pueda prestarse en toda la Argentina.</p>
       </div>
       </div>
       <div className="organigrama">
