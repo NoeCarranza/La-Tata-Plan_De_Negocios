@@ -22,9 +22,6 @@ function PlanEstrategico() {
                 <p className='p-texto-pe'>Aquí es donde trazamos el rumbo para alcanzar nuestras metas y cumplir con nuestra visión de ser líderes en el mercado de cuidado infantil confiable y flexible. Reconocemos que en un mundo en constante transformación, la planificación estratégica es fundamental para el éxito sostenible de nuestra empresa.</p>
                 <img src={personas} alt='personas unidas' className="img_personas"></img>
             </div>
-            <div className='container__foda'>
-                <img src={FODA} alt="FODA empresarial" className='FODA'></img>
-            </div>
             <div className='container__vision'>
                     <h1 className='titulo-mision' style={{color:'black'}}>Visión</h1>
                 <div className='vision'>
@@ -56,15 +53,16 @@ function PlanEstrategico() {
                     </div>
                     <div className='cajas_obj'>
                         <h1 className='cajas__numeros'>4.</h1>
-                        <p className='cajas__texto'>Incentivar a las familias a dejar reseñas detalladas al finalizar cada servicio.</p>
+                        <p className='cajas__texto'>Desarrollar campañas de sensibilización para resaltar los desafíos de los padres trabajadores.</p>
+                        
                     </div>
                     <div className='cajas_obj'>
                         <h1 className='cajas__numeros'>5.</h1>
-                        <p className='cajas__texto'>Desarrollar campañas de sensibilización para resaltar los desafíos de los padres trabajadores.</p>
+                        <p className='cajas__texto'>Destacar las babysitters con altas calificaciones, tanto en la plataforma como en las redes sociales.</p>
                     </div>
                     <div className='cajas_obj'>
                         <h1 className='cajas__numeros'>6.</h1>
-                        <p className='cajas__texto'>Destacar las babysitters con altas calificaciones, tanto en la plataforma como en las redes sociales.</p>
+                        <p className='cajas__texto'>Crear incentivos o recompensas a las babysitters con altas calificaciones.</p>
                     </div>
                     <div className='cajas_obj'>
                         <h1 className='cajas__numeros'>7.</h1>
@@ -191,6 +189,9 @@ function PlanEstrategico() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='container__foda'>
+                <img src={FODA} alt="FODA empresarial" className='FODA'></img>
             </div>
             <div className='container_estrategia'>
                 <h1 className='titulo-mision'>Estrategia de negocio</h1>

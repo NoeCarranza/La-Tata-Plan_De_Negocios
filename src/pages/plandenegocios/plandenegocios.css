@@ -70,7 +70,11 @@ p {
 }
 
 .textopn-3 {
-    width: 50%;
+    width: 60%;
+    font-size: 1.5rem;
+    text-align: justify;
+    hyphens: auto;
+
 }
 
 .textopn-4 {
