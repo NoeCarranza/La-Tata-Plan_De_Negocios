@@ -139,9 +139,9 @@ export default function PlanDeMarketing() {
                     </div>
                     <div>
                         <h1 className='titulo-mision'>Método de fijación de precios</h1>
-                        <p className='texto-precios'>Fijación de Precios por Valor Percibido: ya que nos centraremos en la percepción del valor de la oferta por parte del mercado. Para "La Tata", es importante determinar cómo los padres perciben el valor de los servicios de cuidado infantil que ofreces y fijar precios que reflejen esa percepción de valor.
+                        <p className='texto-target' style={{textAlign:'justify'}}>Fijación de Precios por Valor Percibido: ya que nos centraremos en la percepción del valor de la oferta por parte del mercado. Para "La Tata", es importante determinar cómo los padres perciben el valor de los servicios de cuidado infantil que ofreces y fijar precios que reflejen esa percepción de valor.
                         </p>
-                        <p className='texto-precios'>Fijación de Precios Psicológica:  Los consumidores a menudo utilizan el precio como un indicador de calidad. Esto significa que el precio que se establezca puede influir en la percepción de los clientes sobre la calidad de los servicios de cuidado infantil.
+                        <p className='texto-target' style={{textAlign:'justify'}}><b>Fijación de Precios Psicológica:</b>  Los consumidores a menudo utilizan el precio como un indicador de calidad. Esto significa que el precio que se establezca puede influir en la percepción de los clientes sobre la calidad de los servicios de cuidado infantil.
                             Se considerará cuidadosamente cómo el precio se relaciona con la calidad que se ofrece.
                         </p>
                     </div>
