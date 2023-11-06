@@ -24,8 +24,8 @@ function PlanRRHH() {
         <h1 className="titulo-pe">Plan de Recursos Humanos</h1>
       </div>
       <div className="container-intro">
-        <h1 className="titulo-intro">¿Quiénes somos?</h1>
-        <p className="texto_intro">acá va la intro de la ceci</p>
+        <h1 className="titulo-intro">Introducción</h1>
+        <p className="texto_intro">¿Cómo hace la función de recursos humanos para tomar la materia prima que constituyen las personas y convertirla en ese recurso capitalizable que aporta valor a la empresa?</p>
       </div>
       <div className="vision_RRHH">
         <h1 className="titulo-intro">
@@ -50,7 +50,14 @@ function PlanRRHH() {
       </div>
       <div className="container-objetivos">
         <h1 className="titulo-intro">Objetivos</h1>
-        <p className="texto_intro">acá van los objetivos de la ceci</p>
+        <div className="cajas_objetivos">
+        <h1 className='titulo-p'>Corto Plazo</h1>
+        <p className="texto_intro">Que en el lapso de un año en nuestra ciudad, sea conocido el servicio que brindamos.</p>
+        </div>
+        <div className="cajas_objetivos">
+        <h1 className='titulo-p'>Largo Plazo</h1>
+        <p className="texto_intro">Que en el lapso de un año en nuestra ciudad, sea conocido el servicio que brindamos.</p>
+      </div>
       </div>
       <div className="organigrama">
         <h1 className="titulo-intro">Nuestro organigrama</h1>
@@ -158,7 +165,7 @@ function PlanRRHH() {
       </div>
       <div className="container-conclusiones">
         <h1 className="titulo-mision">Conclusiones</h1>
-        <p className="texto-target">acá van las conclusiones</p>
+        <p className="texto-target" style={{textAlign:'justify', hyphens:'auto'}}> Los humanos podemos, realmente convertirnos en ventaja competitiva, ser el valor agregado de la organización. Somos un recurso escaso difícil de imitar e imperfectamente sustituibles,  así como peculiares, diversos complejos y difíciles de gestionar. El futuro de la función de recursos humanos está en reconocer, potenciar y capitalizar esta identidad entendiendo al ser humano de manera sistémica.</p>
       </div>
     </section>
   );
