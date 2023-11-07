@@ -155,7 +155,7 @@ export default function PlanDeMarketing() {
                 <div className='container_plaza'>
                     <div>
                         <h1 className='titulo-mision' >Canales de distribución</h1>
-                        <h1 className='titulo-mision'>Selección de los canales de distribución apropiados</h1>
+                        <h1 className='titulo-mision' style={{fontSize:'3rem',}}>Selección de los canales de distribución apropiados</h1>
                     </div>
                     <div>
                         <div className='cajas_canales'>
