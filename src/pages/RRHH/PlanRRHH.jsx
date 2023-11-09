@@ -16,6 +16,8 @@ import capcm from "../../assets/cap-cm.png";
 import capcm2 from "../../assets/cap-cm2.png";
 import capcm3 from "../../assets/cap-cm3.png";
 import capcm4 from "../../assets/cap-cm4.png";
+import capcm5 from "../../assets/temario1-cm.png";
+import capss from "../../assets/cap-ss.png";
 
 function PlanRRHH() {
   return (
@@ -25,39 +27,46 @@ function PlanRRHH() {
       </div>
       <div className="container-intro">
         <h1 className="titulo-intro">Introducción</h1>
-        <p className="texto_intro">¿Cómo hace la función de recursos humanos para tomar la materia prima que constituyen las personas y convertirla en ese recurso capitalizable que aporta valor a la empresa?</p>
+        <p className="texto_intro">
+          ¿Cómo hace la función de recursos humanos para tomar la materia prima
+          que constituyen las personas y convertirla en ese recurso
+          capitalizable que aporta valor a la empresa?
+        </p>
       </div>
       <div className="vision_RRHH">
-        <h1 className="titulo-intro">
-          Visión
-        </h1>
-          <p className="texto_intro">
-            Ser el líder en el mercado regional ofreciendo una solución
-            innovadora y confiable para el cuidado de niños en el hogar.
-          </p>
+        <h1 className="titulo-intro">Visión</h1>
+        <p className="texto_intro">
+          Ser el líder en el mercado regional ofreciendo una solución innovadora
+          y confiable para el cuidado de niños en el hogar.
+        </p>
       </div>
       <div className="mision_RRHH">
         <h1 className="titulo-intro">Misión</h1>
-          <p className="texto_intro">
-            Proporcionar un servicio de cuidado de niños en el hogar a través de
-            una aplicación, que ofrece un acceso innovador, cómodo y práctico de
-            contratación simple, proporcionando perfiles de babysitters
-            calificados, que brindan un servicio seguro y de calidad para que
-            los papás encuentren tranquilidad y seguridad en nuestro servicio
-            sabiendo que sus hijos estarán en buenas manos mientras están
-            ausentes.
-          </p>
+        <p className="texto_intro">
+          Proporcionar un servicio de cuidado de niños en el hogar a través de
+          una aplicación, que ofrece un acceso innovador, cómodo y práctico de
+          contratación simple, proporcionando perfiles de babysitters
+          calificados, que brindan un servicio seguro y de calidad para que los
+          papás encuentren tranquilidad y seguridad en nuestro servicio sabiendo
+          que sus hijos estarán en buenas manos mientras están ausentes.
+        </p>
       </div>
       <div className="container-objetivos">
         <h1 className="titulo-intro">Objetivos</h1>
         <div className="cajas_objetivos">
-        <h1 className='titulo-p'>Corto Plazo</h1>
-        <p className="texto_intro">Que en el lapso de un año en nuestra ciudad, sea conocido el servicio que brindamos.</p>
+          <h1 className="titulo-p">Corto Plazo</h1>
+          <p className="texto_intro">
+            Que en el lapso de un año en nuestra ciudad, sea conocido el
+            servicio que brindamos.
+          </p>
         </div>
         <div className="cajas_objetivos">
-        <h1 className='titulo-p'>Largo Plazo</h1>
-        <p className="texto_intro">Que nuestro servicio sea conocido y pueda prestarse en toda la Argentina.</p>
-      </div>
+          <h1 className="titulo-p">Largo Plazo</h1>
+          <p className="texto_intro">
+            Que nuestro servicio sea conocido y pueda prestarse en toda la
+            Argentina.
+          </p>
+        </div>
       </div>
       <div className="organigrama">
         <h1 className="titulo-intro">Nuestro organigrama</h1>
@@ -85,8 +94,16 @@ function PlanRRHH() {
       <div className="container-puestos">
         <h1 className="titulo-mision">Puestos</h1>
         <div className="puestos-descrip">
-          <img src={puestoby} alt="responsabilidades puestos babysitter" className="img-puestos"></img>
-          <img src={puestocm} alt="responsabilidades puestos cm" className="img-puestos"></img>
+          <img
+            src={puestoby}
+            alt="responsabilidades puestos babysitter"
+            className="img-puestos"
+          ></img>
+          <img
+            src={puestocm}
+            alt="responsabilidades puestos cm"
+            className="img-puestos"
+          ></img>
         </div>
       </div>
       <div className="container-incentivos">
@@ -147,6 +164,11 @@ function PlanRRHH() {
             className="img-cap-cm2"
           ></img>
           <img
+            src={capcm5}
+            alt="capacitaciones community manager"
+            className="img-cap-cm"
+          ></img>
+          <img
             src={capcm2}
             alt="capacitaciones community manager"
             className="img-cap-cm"
@@ -162,10 +184,38 @@ function PlanRRHH() {
             className="img-cap-cm2"
           ></img>
         </div>
+        <h2 className="subtitulo-cap" style={{marginBottom:'0'}}>Capacitaciones Conjuntas</h2>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems:'center',
+          }}
+        >
+          <img
+            src={capss}
+            alt="capacitaciones conjuntas"
+            className="img-cap-cm"
+            style={{ width: "60%"}}
+          ></img>
+        </div>
       </div>
+
       <div className="container-conclusiones">
         <h1 className="titulo-mision">Conclusiones</h1>
-        <p className="texto-target" style={{textAlign:'justify', hyphens:'auto'}}> Los humanos podemos, realmente convertirnos en ventaja competitiva, ser el valor agregado de la organización. Somos un recurso escaso difícil de imitar e imperfectamente sustituibles,  así como peculiares, diversos complejos y difíciles de gestionar. El futuro de la función de recursos humanos está en reconocer, potenciar y capitalizar esta identidad entendiendo al ser humano de manera sistémica.</p>
+        <p
+          className="texto-target"
+          style={{ textAlign: "justify", hyphens: "auto" }}
+        >
+          {" "}
+          Los humanos podemos, realmente convertirnos en ventaja competitiva,
+          ser el valor agregado de la organización. Somos un recurso escaso
+          difícil de imitar e imperfectamente sustituibles, así como peculiares,
+          diversos complejos y difíciles de gestionar. El futuro de la función
+          de recursos humanos está en reconocer, potenciar y capitalizar esta
+          identidad entendiendo al ser humano de manera sistémica.
+        </p>
       </div>
     </section>
   );
